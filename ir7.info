@@ -77,7 +77,7 @@ stylesheets[all][] = css/print.css
 
 ; Optionally add some JavaScripts to your theme.
 
-;scripts[] = js/script.js
+scripts[] = js/script.js
 
 
 
@@ -96,6 +96,7 @@ stylesheets[all][] = css/print.css
 ; And you'll use this variable in maintenance-page.tpl.php:
 ;   <?php print $header_top; ?>
 
+regions[sub_header]     = Sub Header
 regions[header]         = Header
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
@@ -156,3 +157,25 @@ settings[zen_wireframes]           = 0
 ; To add a Panels layout (which can also be used by Display Suite), uncomment
 ; the line below and see the documentation at: http://drupal.org/node/495654
 ;plugins[panels][layouts] = layouts
+
+; Set custom theme colours using DesignKit
+
+; Background color
+designkit[color][background][title] = "Background"
+designkit[color][background][description] = "Background color."
+designkit[color][background][default] = "#ffffff"
+
+; Header color
+designkit[color][header][title] = "Header color"
+designkit[color][header][description] = "Header color."
+designkit[color][header][default] = "#ffffff"
+
+; Footer color
+designkit[color][footer][title] = "Footer color"
+designkit[color][footer][description] = "Footer color."
+designkit[color][footer][default] = "#ffffff"
+
+; Sidebars color
+designkit[color][sidebars][title] = "Sidebars color"
+designkit[color][sidebars][description] = "Sidebars color."
+designkit[color][sidebars][default] = "#ffffff"

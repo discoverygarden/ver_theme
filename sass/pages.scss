@@ -13,25 +13,46 @@
  * Body
  */
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  background: #DAD8D8;
   background: image-url('bg.png') repeat scroll 0 0 #222222;
   font-family: 'ProximaNova';
   font-weight: normal;
+  min-height: 100%;
+    border-left: 10px solid #5a5b5d;
+    border-right: 10px solid #5a5b5d;  
+}
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #343334; // Old browsers
+}
+
+body:before {
+    top: 0;
+    height: 30px;
+      @include filter-gradient(#343334, #5a5b5d, vertical); // IE6-9
+      @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
+}
+body:after {
+    bottom: 0;
+    height: 10px;
+      @include filter-gradient(#5a5b5d, #343334, vertical); // IE6-9
+      @include background-image(linear-gradient(top,  #5a5b5d 0%,#343334 100%));
 }
 
 #page {
-  margin-top: 35px;
-}
-
-#head-back {
-  background: image-url('bg-pattern.png') repeat scroll 0 0 #fff;
-  border-bottom: 2px solid #E9F1EA;
-  height: 470px;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
+  margin-top: 30px;
+  background: #fff;
 }
 
 /*
@@ -58,6 +79,8 @@ body {
  */
 
 #header {
+  height: 100px;
+  line-height: 5em;
 }
 
 #logo { /* Wrapping link for logo */
@@ -68,6 +91,11 @@ body {
   img {
     vertical-align: bottom;
   }
+}
+
+#social {
+  float: right;
+  padding-left: 4px;
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */
@@ -105,9 +133,9 @@ body {
  */
 
 #main {
-  background: #fff;
+ /* background: #fff;
   box-shadow: 1px 1px 1px #DAE5E2;
-  border: 1px solid #DAE5E2;
+  border: 1px solid #DAE5E2; */
 }
 
 /*

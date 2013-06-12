@@ -75,12 +75,28 @@ li a.active {
 }
 
 /*
- * Main menu and Secondary menu links
+ * Main menu and Secondary menu links and other menu links
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000384}}
 #secondary-menu {
   float: right;
   /* LTR */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000388}}
+#block-menu-menu-header-menu {
+  float: right;
+  margin-bottom: 0;
+  position: relative;
+  top: -51px;
+  height: 0;
+  font-size: 90%;
+  line-height: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000397}}
+#block-menu-menu-header-menu li {
+  display: inline-block;
+  margin-left: 1em;
 }
 
 /*

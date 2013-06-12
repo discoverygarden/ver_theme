@@ -56,6 +56,16 @@ a.button { /* Buttons used by contrib modules like Media */
   @include appearance(button);
 }
 
+/**
+ * @Islandora Blocks
+ *
+**/
+
+#edit-islandora-simple-search-query {
+  width: 75%;
+}
+
+
 /*
  * Password confirmation
  */

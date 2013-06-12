@@ -70,8 +70,8 @@
  */
 ?>
 
-<div id="head-back">
 <div id="page">
+  <?php print render($page['sub_header']); ?>
 
   <header id="header" role="banner">
 
@@ -90,7 +90,7 @@
         <?php if ($site_slogan): ?>
           <h2 id="site-slogan"><?php print $site_slogan; ?></h2>
         <?php endif; ?>
-      </hgroup><!-- /#name-and-slogan -->
+      </hgroup>
     <?php endif; ?>
 
     <?php if ($secondary_menu): ?>
@@ -107,10 +107,10 @@
           ),
         )); ?>
       </nav>
-    <?php endif; ?>
+    <?php endif; ?><!-- /#name-and-slogan -->
 
     <?php print render($page['header']); ?>
-
+    <div id="social"><a href=""><img src="/sites/all/themes/ir7/images/facebook.png"/></a><a href=""><img src="/sites/all/themes/ir7/images/twitter.png"/></a></div>
   </header>
 
   <div id="main">

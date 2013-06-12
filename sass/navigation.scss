@@ -75,7 +75,7 @@ li a.active {
 }
 
 /*
- * Main menu and Secondary menu links
+ * Main menu and Secondary menu links and other menu links
  */
 
 #main-menu {
@@ -83,6 +83,21 @@ li a.active {
 
 #secondary-menu {
   float: right; /* LTR */
+}
+
+#block-menu-menu-header-menu {
+  float: right;
+  margin-bottom: 0;
+  position: relative;
+  top: -51px;
+  height: 0;
+  font-size: 90%;
+  line-height: 2em;
+
+  li {
+    display: inline-block; 
+    margin-left: 1em;
+  }
 }
 
 /*

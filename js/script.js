@@ -15,5 +15,13 @@
 
 // Place your code here.
 
+$(window).load(function() {
+	$("#edit-islandora-simple-search-query").val("Search this repository");
+
+	  $("#edit-islandora-simple-search-query").focus(function() {
+      $(this).val("");
+	  });
+   
+});
 
 })(jQuery, Drupal, this, this.document);

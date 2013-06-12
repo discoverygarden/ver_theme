@@ -224,3 +224,16 @@ function ir7_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+function ir7_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
+  $link = array(
+    '#markup' => l(t("Advanced Search"), "search", array('attributes' => array('class' => array('adv_search')))),
+  );
+  $form['simple']['advanced_link'] = $link;
+}
+
+function ir7_preprocess_html(&$variables) {
+  drupal_add_css('http://openfontlibrary.org/face/linear-regular', array('group' => CSS_THEME, 'preprocess' => FALSE));
+  drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('group' => CSS_THEME, 'preprocess' => FALSE));
+  drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('group' => CSS_THEME, 'preprocess' => FALSE));
+}
