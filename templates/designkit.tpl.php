@@ -16,6 +16,14 @@ body.designkit {
       background: <?php print $header ?>;	
 }
 
+#main {
+      background: <?php print $content ?>;	
+}
+
+#navigation {
+      background: <?php print $navigation ?>;	
+}
+
 #footer {
       background: <?php print $footer ?>;	
 }

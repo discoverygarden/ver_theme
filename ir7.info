@@ -170,6 +170,16 @@ designkit[color][header][title] = "Header color"
 designkit[color][header][description] = "Header color."
 designkit[color][header][default] = "#ffffff"
 
+; Content Area color
+designkit[color][content][title] = "Content color"
+designkit[color][content][description] = "Content color."
+designkit[color][content][default] = "#ffffff"
+
+; Navigation Bar color
+designkit[color][navigation][title] = "Navigation Bar color"
+designkit[color][navigation][description] = "Navigation Bar color."
+designkit[color][navigation][default] = "#ffffff"
+
 ; Footer color
 designkit[color][footer][title] = "Footer color"
 designkit[color][footer][description] = "Footer color."
