@@ -61,9 +61,71 @@ a.button { /* Buttons used by contrib modules like Media */
  *
 **/
 
-#edit-islandora-simple-search-query {
-  width: 75%;
+#block-islandora-solr-simple {
+  #edit-simple {
+    margin-top: 3em;
+  }
+  .form-text {
+    border: 1px solid #ccc;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0 3px 3px -3px #808184;
+    color: #808184;
+    float: right;
+    height: 1.9em;
+    padding-left: 0.5em;
+    width: 97%;
+  }
+  .form-submit {
+    background: url("../images/search_btn.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: transparent;
+    height: 26px;
+    position: relative;
+    float: right;
+    right: 5px;
+    top: -30px;
+    width: 26px; 
+  }
 }
+
+.not-front #block-islandora-solr-simple .form-text {
+  width: 99%;
+}
+
+
+#islandora-solr-result-count {
+  float: left;
+  position: relative;
+  top: -4.6em;
+  color: #808184;
+}
+
+.adv_search {
+  font-size: 80%;
+  margin-right: -18px;
+  float: right;
+}
+
+.islandora-solr-content {
+  .pager {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 3em 0 2.2em;
+    padding: 0.5em 0;
+    box-shadow: 0 3px 3px -3px #808184;
+  }
+
+  table {
+    tr {
+      border-bottom: 1px solid #ececec;
+      td {
+        padding: 1em 0.3em;
+      }
+    }
+  }
+}
+
+
 
 
 /*

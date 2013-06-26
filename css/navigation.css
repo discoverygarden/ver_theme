@@ -35,16 +35,11 @@ li a.active {
 /*
  * Navigation bar
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000347}}
-#navigation {
-  /* overflow: hidden; */
-  /* Sometimes you want to prevent overlapping with main div. */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000348}}
 #navigation .block {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000353}}
 #navigation .block-menu .block-title,
 #navigation .block-menu-block .block-title {
   position: absolute !important;
@@ -53,7 +48,7 @@ li a.active {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000358}}
 #navigation ul.links,
 #navigation ul.menu {
   /* Menu block links */
@@ -62,7 +57,7 @@ li a.active {
   text-align: left;
   /* LTR */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000363}}
 #navigation ul.links li,
 #navigation ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
@@ -77,13 +72,13 @@ li a.active {
 /*
  * Main menu and Secondary menu links and other menu links
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000382}}
 #secondary-menu {
   float: right;
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000386}}
 #block-menu-menu-header-menu {
   float: right;
   margin-bottom: 0;
@@ -93,10 +88,19 @@ li a.active {
   font-size: 90%;
   line-height: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000395}}
 #block-menu-menu-header-menu li {
   display: inline-block;
   margin-left: 1em;
+}
+
+/*
+  *
+  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003104}}
+.sidebar {
+  box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
+  padding: 2em 1.5em;
 }
 
 /*

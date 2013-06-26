@@ -70,9 +70,9 @@
  */
 ?>
 
+<a name="top"></a>
 <div id="page">
   <?php print render($page['sub_header']); ?>
-
   <header id="header" role="banner">
 
     <?php if ($logo): ?>

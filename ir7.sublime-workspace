@@ -67,7 +67,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 2798,
+				"buffer_size": 3392,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "templates/designkit.tpl.php",
 			"settings":
 			{
-				"buffer_size": 930,
+				"buffer_size": 1158,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +83,7 @@
 			"file": "ir7.info",
 			"settings":
 			{
-				"buffer_size": 6415,
+				"buffer_size": 7159,
 				"line_ending": "Unix"
 			}
 		}
@@ -240,7 +240,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -388,15 +388,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 2798,
+						"buffer_size": 3392,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								900,
-								900
+								1023,
+								1023
 							]
 						],
 						"settings":
@@ -406,7 +406,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -416,15 +416,15 @@
 					"file": "templates/designkit.tpl.php",
 					"settings":
 					{
-						"buffer_size": 930,
+						"buffer_size": 1158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								431,
-								411
+								457,
+								457
 							]
 						],
 						"settings":
@@ -442,15 +442,15 @@
 					"file": "ir7.info",
 					"settings":
 					{
-						"buffer_size": 6415,
+						"buffer_size": 7159,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5844,
-								5805
+								6377,
+								6377
 							]
 						],
 						"settings":
@@ -458,7 +458,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2422.0,
+						"translation.y": 2131.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

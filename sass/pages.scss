@@ -51,8 +51,16 @@ body:after {
 }
 
 #page {
-  margin-top: 30px;
-  background: #fff;
+  margin-top: 1.3em;
+  background: #E2E2E2;
+}
+.front #page {
+  margin-top: 0.1em;
+}
+
+#page-title {
+  background: none !important;
+  font-weight: normal;
 }
 
 /*
@@ -73,6 +81,33 @@ body:after {
     color: #fff;
   }
 }
+
+
+/*
+ * Searching
+ */
+.islandora-solr-search-result {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #f7f9f6;
+  box-shadow: 0 3px 3px -3px #808184;
+}
+
+.solr-fields dt, .solr-fields dd {
+  border-top: 1px solid #EEF0ED;
+}
+dl.solr-fields {
+  border-top: none;
+  float: right;
+  width: 83%;
+}
+
+dl.solr-thumb {
+  float: left;
+  width: 15%;
+  margin: 2% 0 2% 1%;
+}
+
 
 /*
  * Header
@@ -96,6 +131,13 @@ body:after {
 #social {
   float: right;
   padding-left: 4px;
+  margin-top: 0.6em;
+  a {
+    margin-left: 5px;
+  }
+  img {
+    box-shadow: 0 3px 3px -3px #808184;
+  }
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */
@@ -133,9 +175,7 @@ body:after {
  */
 
 #main {
- /* background: #fff;
-  box-shadow: 1px 1px 1px #DAE5E2;
-  border: 1px solid #DAE5E2; */
+  background: none !important;
 }
 
 /*
@@ -143,6 +183,15 @@ body:after {
  */
 
 #content {
+  box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
+  background: #fff;
+  padding: 1.5em 1em;
+}
+
+.front #content {
+  padding: 0; 
+  background: none;
+  box-shadow: none;
 }
 
 .region-highlighted {
@@ -168,6 +217,7 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title { /* Comment title */
   margin: 0;
+  color: #5A5B5D !important;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */
@@ -241,6 +291,12 @@ span.field-label { /* The inline field label used by the Fences module */
   }
 }
 
+ul.pager li.pager-current {
+  background: none repeat scroll 0 0 #CCCECF;
+  border: 1px solid #419845;
+  color: #5A5B5D;
+}
+
 .feed-icon { /* The link to the RSS or Atom feed for the current list of content */
 }
 
@@ -255,6 +311,8 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 .region-sidebar-first {
+  font-size: 80%;
+  margin-top: 0.1em;
 }
 
 /*
@@ -272,7 +330,7 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 #footer {
-  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 /*
