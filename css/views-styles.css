@@ -80,3 +80,20 @@
 .views-slideshow-cycle-main-frame-row {
   width: 100%;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000372}}
+.views-view-grid {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000375}}
+.views-view-grid td {
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000378}}
+.views-view-grid a {
+  color: #3D8396;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000381}}
+.views-view-grid a:hover {
+  color: #888;
+}
