@@ -84,7 +84,7 @@ a.button { /* Buttons used by contrib modules like Media */
     float: right;
     right: 5px;
     top: -30px;
-    width: 26px; 
+    width: 26px;
   }
 }
 
@@ -221,3 +221,85 @@ form {
 td.menu-disabled {
   background: #ccc;
 }
+
+
+// Styling for radio buttons and checkboxes for a future version of IR that uses them
+//
+// label.radio-label {
+//     display: inline-block;
+//     cursor: pointer;
+//     position: relative;
+//     top: 10px;
+// }
+
+// input[type="radio"] {
+//   display: none;
+// }
+
+// label.radio-label:before {
+//   border: 2px solid #808080;
+//   content: "";
+//   display: inline-block;
+
+//   width: 21px;
+//   height: 21px;
+
+//   position: absolute;
+//   left: 0;
+//   bottom: 1px;
+//   background-color: #fff;
+// }
+
+// .radio label:before {
+//   border-radius: 15px;
+// }
+
+// input[type=radio]:checked + label:before {
+//   content: "\2022";
+//   color: #808080;
+//   font-size: 36px;
+//   text-align: center;
+//   line-height: 22px;
+// }
+
+
+// .checkbox {
+//   margin-top: 20px;
+// }
+
+// label.checkbox-label {
+//   display: inline-block;
+//   cursor: pointer;
+//   position: relative;
+//   top: 10px;
+// }
+
+// input[type="checkbox"] {
+//   display: none;
+// }
+
+// label.checkbox-label:before {
+//   border: 2px solid #cccecf;
+//   content: "";
+//   display: inline-block;
+
+//   width: 16px;
+//   height: 16px;
+
+//   position: absolute;
+//   left: 0;
+//   bottom: 1px;
+//   background-color: #fff;
+// }
+
+// .checkbox label:before {
+//   border-radius: 3px;
+// }
+
+// input[type=checkbox]:checked + label:before {
+//   content: "\2713";
+//   color: #cccecf;
+//   font-size: 16px;
+//   text-align: center;
+//   line-height: 18px;
+// }

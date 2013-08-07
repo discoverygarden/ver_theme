@@ -93,6 +93,10 @@ body:after {
   box-shadow: 0 3px 3px -3px #808184;
 }
 
+.islandora-solr-search-results {
+  margin-top: 3em;
+}
+
 .solr-fields dt, .solr-fields dd {
   border-top: 1px solid #EEF0ED;
 }
@@ -131,7 +135,7 @@ dl.solr-thumb {
 #social {
   float: right;
   padding-left: 4px;
-  margin-top: 0.6em;
+  margin-top: 1em;
   a {
     margin-left: 5px;
   }
@@ -198,15 +202,38 @@ dl.solr-thumb {
 }
 
 .breadcrumb { /* The path to the current page in the form of a list of links */
+  font-size: 70%;
+  letter-spacing: 0.6pt;
+  line-height: 1.5em;
+  padding-left: 9px;
   ol {
     margin: 0;
     padding: 0;
   }
   li {
-    display: inline;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 5px 0;
+    padding: 2px 5px 4px;
+    
+    a:hover {
+      color: #888;
+    }
+  }
+  li:hover {
+    background: #F7F9F6;
+  }
+  .islandora-solr-breadcrumb-super {
+  font-size: 100%;
+  position: relative;
+  left: 1px; top: 4px;
+    a {
+    color: #222;
+    }
+    a:hover {
+      color: red;
+    }
   }
 }
 
@@ -312,7 +339,6 @@ ul.pager li.pager-current {
 
 .region-sidebar-first {
   font-size: 80%;
-  margin-top: 0.1em;
 }
 
 /*

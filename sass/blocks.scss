@@ -27,7 +27,7 @@
 }
 
 .front h2.block-title {
-    border-bottom: 1px solid #ccc;  
+    border-bottom: 1px solid #ccc;
     font-size: 125%;
     font-weight: normal;
     padding: 0.5em 0 0.9em;
@@ -51,7 +51,7 @@
   max-width: 360px;
   padding: 10px;
   box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.3);
-    -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5); 
+    -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5);
 }
 
 #block-accordion-rotator-accordion-rotator {
@@ -65,13 +65,25 @@
   width: 30%;
   background: #fff;
   float: left;
-  padding: 10px;
-  margin-right: 1%;
+  padding: 15px;
+  margin-right: 1.1%;
   box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.3);
-    -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5); 
+    -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5);
 }
 #block-views-frontpage-solr-boxes-block-2 {
   margin-right: none !important;
+}
+#block-views-frontpage-solr-boxes-block-1 {
+  h3 {
+    margin-bottom: 0.5em;
+    font-size: 95%;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-size: 80%;
+    line-height: 1.4em;
+  }
 }
 
 #block-views-frontpage-solr-boxes-block {
@@ -80,7 +92,17 @@
   padding: 10px;
   width: 98.2%;
   box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.3);
-    -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5); 
+    -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5);
+
+    .views-field-counter {
+      color: #808184;
+    }
+}
+
+#block-views-top-site-searches-block, #block-views-top-facet-searches-block {
+  table {
+    width: 100%;
+  }
 }
 
 .block-islandora-solr {
@@ -148,11 +170,6 @@
  *
 **/
 
-.view-image-blocks {
-  
-}
-
-
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
 }
 
@@ -179,6 +196,46 @@
     margin: 0;
   }
 }
+
+/* @Google Analytics Views */
+
+#block-views-object-visitors-by-month-block {
+  float: left;
+  width: 30%;
+  padding: 15px;
+  margin: 0 1.1% 0 0;
+  background: #fff;
+  box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
+    -webkit-box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
+}
+
+#block-views-top-site-searches-block {
+  @extend #block-views-object-visitors-by-month-block;
+  margin: 0;
+    font-size: 90%;
+}
+
+#block-views-top-facet-searches-block {
+  @extend #block-views-object-visitors-by-month-block;
+  margin: 0;
+    font-size: 90%;
+}
+
+.block-google-analytics-reports {
+  @extend #block-views-object-visitors-by-month-block;
+  h3 {
+    font-size: 93%;
+    color: #424143;
+  }
+  ol, p {
+    font-size: 90%;
+  }
+}
+
+#block-views-7518164537523ba73652c9a5fd647fe6 {
+  @extend #block-views-object-visitors-by-month-block;
+}
+
 
 /* Blockify */
 
@@ -262,3 +319,56 @@
 
 #block-user-online { /* "Who's online" block for a list of the online users */
 }
+
+// Temp
+
+/*
+#block-views-frontpage-slider-block {
+  font-size: 85%;
+  line-height: 0.7em;
+}
+
+ .views-slideshow-controls-top {
+   position: relative;
+   left: 950px;
+   top: -44px;
+   width: 50px;
+
+   #views_slideshow_controls_text_previous_frontpage_slider-block a {
+     background: url('../images/slide_left.png') no-repeat;
+     display: block;
+     height: 19px;
+     text-indent: -9999px;
+     width: 17px;
+
+     position: relative;
+   }
+
+   #views_slideshow_controls_text_next_frontpage_slider-block a {
+     background: url('../images/slide_right.png') no-repeat;
+     display: block;
+     height: 19px;
+     text-indent: -9999px;
+     width: 17px;
+
+     position: relative;
+     left: 35px;
+     top: -19px;
+   }
+
+   #views_slideshow_controls_text_pause_frontpage_slider-block {
+     display: none;
+   }
+ }
+
+ #views_slideshow_cycle_teaser_section_frontpage_slider-block {
+   top: -112px;
+   left: 300px;
+
+   a {
+     color: blue;
+     letter-spacing: 0.2em;
+     text-transform: uppercase;
+   }
+ }
+*/

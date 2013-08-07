@@ -97,3 +97,9 @@
 .views-view-grid a:hover {
   color: #888;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000389}}
+#block-views-frontpage-solr-boxes-block .views-field-dctitle {
+  margin: 0.5em 0;
+  display: inline-block;
+}
