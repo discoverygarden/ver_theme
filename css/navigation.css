@@ -83,21 +83,66 @@ li a.active {
   float: right;
   margin-bottom: 0;
   position: relative;
-  top: -51px;
-  height: 0;
-  font-size: 90%;
-  line-height: 2em;
+  top: 7px;
+  font-size: 85%;
+  line-height: 0.3em;
+  height: 30px;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF343334', endColorstr='#FF5A5B5D');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343334), color-stop(100%, #5a5b5d));
+  background-image: -webkit-linear-gradient(top, #343334 0%, #5a5b5d 100%);
+  background-image: -moz-linear-gradient(top, #343334 0%, #5a5b5d 100%);
+  background-image: -o-linear-gradient(top, #343334 0%, #5a5b5d 100%);
+  background-image: -ms-linear-gradient(top, #343334 0%, #5a5b5d 100%);
+  background-image: linear-gradient(top, #343334 0%, #5a5b5d 100%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000395}}
-#block-menu-menu-header-menu li {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000396}}
+#block-menu-menu-header-menu ul {
+  margin: 1em;
+  padding-left: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000399}}
+#block-menu-menu-header-menu ul li {
   display: inline-block;
-  margin-left: 1em;
+  margin: 0 0.8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003103}}
+#block-menu-menu-header-menu ul li.first {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003109}}
+#block-menu-menu-footer-menu {
+  font-size: 75%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003112}}
+#block-menu-menu-footer-menu ul {
+  list-style: none;
+  margin: 1em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003115}}
+#block-menu-menu-footer-menu ul li {
+  display: inline-block;
+  margin-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003118}}
+#block-menu-menu-footer-menu ul li a, #block-menu-menu-footer-menu ul li a:visited {
+  color: #424143;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003121}}
+#block-menu-menu-footer-menu ul li a:hover {
+  color: #419845;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003129}}
+#block-views-image-blocks-block-1 {
+  float: left;
 }
 
 /*
   *
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003136}}
 .sidebar {
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
   padding: 2em 1.5em;

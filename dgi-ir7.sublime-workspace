@@ -31,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 6703,
+				"buffer_size": 6779,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 7231,
+				"buffer_size": 7356,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,7 +95,7 @@
 			"file": "templates/page.tpl.php",
 			"settings":
 			{
-				"buffer_size": 7115,
+				"buffer_size": 6915,
 				"line_ending": "Unix"
 			}
 		}
@@ -164,7 +164,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -246,15 +246,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 6703,
+						"buffer_size": 6779,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2295,
-								2295
+								2833,
+								2833
 							]
 						],
 						"settings":
@@ -264,7 +264,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4180.0,
+						"translation.y": 4081.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -339,15 +339,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 7231,
+						"buffer_size": 7356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3964,
-								3964
+								0,
+								0
 							]
 						],
 						"settings":
@@ -479,15 +479,15 @@
 					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 7115,
+						"buffer_size": 6915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4922,
-								4922
+								4691,
+								4691
 							]
 						],
 						"settings":
@@ -496,8 +496,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 1513.0,
+						"translation.x": 38.0,
+						"translation.y": 1129.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -87,15 +87,47 @@ li a.active {
   float: right;
   margin-bottom: 0;
   position: relative;
-  top: -51px;
-  height: 0;
-  font-size: 90%;
-  line-height: 2em;
-
-  li {
-    display: inline-block; 
-    margin-left: 1em;
+  top: 7px;
+  font-size: 85%;
+  line-height: 0.3em;
+  height: 30px;
+    @include filter-gradient(#343334, #5a5b5d, vertical); // IE6-9
+    @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
+  ul {
+    margin: 1em;
+    padding-left: 15px;
+    li {
+      display: inline-block; 
+      margin: 0 0.8em;
+    }
+    li.first {
+      margin-left: 0;
+    }
   }
+}
+
+#block-menu-menu-footer-menu {
+  font-size: 75%;
+  float: left;
+  ul {
+    list-style: none;
+    margin: 1em 0;
+    li {
+     display: inline-block; 
+     margin-right: 1em;
+      a, a:visited {
+        color: #424143;
+      }
+      a:hover {
+        color: #419845;        
+      }
+    }
+  }
+
+}
+
+#block-views-image-blocks-block-1 {
+  float: left;
 }
 
 /*

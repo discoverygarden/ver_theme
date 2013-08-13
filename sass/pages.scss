@@ -29,6 +29,7 @@ body {
     border-right: 10px solid #5a5b5d;  
 }
 
+/*
 body:before, body:after {
     content: "";
     position: fixed;
@@ -49,13 +50,10 @@ body:after {
       @include filter-gradient(#5a5b5d, #343334, vertical); // IE6-9
       @include background-image(linear-gradient(top,  #5a5b5d 0%,#343334 100%));
 }
+*/
 
 #page {
-  margin-top: 1.3em;
   background: #E2E2E2;
-}
-.front #page {
-  margin-top: 0.1em;
 }
 
 #page-title {
@@ -118,8 +116,6 @@ dl.solr-thumb {
  */
 
 #header {
-  height: 100px;
-  line-height: 5em;
 }
 
 #logo { /* Wrapping link for logo */
@@ -135,7 +131,7 @@ dl.solr-thumb {
 #social {
   float: right;
   padding-left: 4px;
-  margin-top: 1em;
+  margin-top: 0.3em;
   a {
     margin-left: 5px;
   }
@@ -146,16 +142,19 @@ dl.solr-thumb {
 
 #name-and-slogan { /* Wrapper for website name and slogan */
   float: left;
+  margin-left: 2%;
+  margin-top: -0.2em;
 }
 
 #site-name { /* The name of the website */
   margin: 0;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.5em;
-
+  font-weight: normal;
+  color: #5A5B5D;
   a:link,
   a:visited {
-    color: #000;
+    color: #5A5B5D;
     text-decoration: none;
   }
 
@@ -168,6 +167,8 @@ dl.solr-thumb {
 #site-slogan { /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
+  color: #A14243;
+  font-weight: normal;
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
@@ -356,7 +357,7 @@ ul.pager li.pager-current {
  */
 
 #footer {
-  margin-bottom: 2em;
+  margin-top: 0.5em;
 }
 
 /*
