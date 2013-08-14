@@ -286,86 +286,101 @@
     padding: 20px 10px;
     margin-right: 2em;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003239}}
+  #block-accordion-rotator-accordion-rotator {
+    width: 63.3%;
+  }
 }
 @media all and (min-width: 1024px) and (max-width: 1199px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003245}}
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
     width: 29.55%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003248}}
   #block-views-frontpage-solr-boxes-block {
     width: 98%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003251}}
   .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
     width: 33%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003255}}
   .view-frontpage-solr-boxes .views-responsive-grid .views-row {
     padding: 20px 10px;
     margin-right: 1em;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003260}}
+  #block-accordion-rotator-accordion-rotator {
+    width: 63.3%;
+  }
 }
 @media all and (min-width: 960px) and (max-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003266}}
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
     width: 29.35%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003269}}
   .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
     width: 33%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003272}}
   #block-views-frontpage-solr-boxes-block {
     width: 97.6%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003275}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row {
     padding: 20px 10px;
     margin-right: 4em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003279}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-last {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003284}}
   #block-menu-menu-header-menu {
     float: none !important;
     line-height: 2em !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003288}}
   #header {
     margin-top: 2em;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003291}}
+  #block-accordion-rotator-accordion-rotator {
+    width: 63.3%;
+  }
 }
 @media all and (min-width: 800px) and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003297}}
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
     width: 28.66%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003300}}
   #block-views-frontpage-solr-boxes-block {
     width: 97.5%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003303}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row {
     padding: 20px 10px;
     margin-right: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003307}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-last {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003312}}
   .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
     float: left !important;
     width: 50%;
@@ -373,57 +388,62 @@
     margin-right: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003318}}
   .front #block-block-1 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003321}}
   #block-views-image-blocks-block {
     margin-right: 0 !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003323}}
   #block-views-image-blocks-block img {
     display: block;
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003328}}
   #block-menu-menu-header-menu {
     float: none !important;
     line-height: 2em !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003332}}
   #header {
     margin-top: 2em;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003335}}
+  #block-accordion-rotator-accordion-rotator {
+    width: 100%;
+  }
 }
 @media all and (min-width: 640px) and (max-width: 799px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003341}}
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
     width: 27.6%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003344}}
   #block-views-frontpage-solr-boxes-block {
     width: 97%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003347}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row {
     padding: 20px 10px;
     margin-right: 2em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003351}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-last {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003354}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-3 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003359}}
   .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
     float: left !important;
     width: 50%;
@@ -431,59 +451,64 @@
     margin-right: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003365}}
   .front #block-block-1 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003368}}
   #block-views-image-blocks-block {
     margin-right: 0 !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003370}}
   #block-views-image-blocks-block img {
     display: block;
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003375}}
   #block-menu-menu-header-menu {
     float: none !important;
     line-height: 2em !important;
     top: 5px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003380}}
   #header {
     margin-top: 2em;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003383}}
+  #block-accordion-rotator-accordion-rotator {
+    width: 100%;
+  }
 }
 @media all and (min-width: 320px) and (max-width: 639px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003389}}
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
     width: 95%;
     margin-bottom: 1em !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003393}}
   #block-views-frontpage-solr-boxes-block {
     width: 96%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003396}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row {
     padding: 20px 10px;
     margin-right: 2em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003400}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-last {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003403}}
   #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-3 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003408}}
   .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
     float: left !important;
     width: 96%;
@@ -491,29 +516,34 @@
     margin-right: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003414}}
   .front #block-block-1 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003402}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003417}}
   #block-views-image-blocks-block {
     margin-right: 0 !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003419}}
   #block-views-image-blocks-block img {
     display: block;
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003424}}
   #block-menu-menu-header-menu {
     float: none !important;
     line-height: 2em !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003428}}
   #header {
     margin-top: 2em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003431}}
+  #block-accordion-rotator-accordion-rotator {
+    width: 100%;
   }
 }
