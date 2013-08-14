@@ -103,3 +103,8 @@
   margin: 0.5em 0;
   display: inline-block;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000395}}
+.view-frontpage-solr-boxes .views-responsive-grid .views-row {
+  float: left;
+}

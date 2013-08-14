@@ -80,11 +80,11 @@ li a.active {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000386}}
 #block-menu-menu-header-menu {
-  float: right;
   margin-bottom: 0;
   position: relative;
-  top: 7px;
+  text-align: right;
   font-size: 85%;
+  float: right;
   line-height: 0.3em;
   height: 30px;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF343334', endColorstr='#FF5A5B5D');
