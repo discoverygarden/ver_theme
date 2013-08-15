@@ -227,7 +227,7 @@ $zen-auto-include-item-base: false;
   #block-views-frontpage-solr-boxes-block {
     width: 98.2%;
   }
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
+  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1, .front #block-block-4 {
     width: 60%;
   }
   .view-frontpage-solr-boxes .views-responsive-grid {
@@ -237,7 +237,7 @@ $zen-auto-include-item-base: false;
     }
   }
   #block-accordion-rotator-accordion-rotator {
-    width: 63.3%;
+    width: 65.3%;
   }
 }
 
@@ -258,7 +258,8 @@ $zen-auto-include-item-base: false;
     }
   }
   #block-accordion-rotator-accordion-rotator {
-    width: 63.3%;
+    width: 61.5%;
+    margin-left: 1.5%;
   }
 }
 
@@ -288,8 +289,9 @@ $zen-auto-include-item-base: false;
   #header {
     margin-top: 2em;
   }
-  #block-accordion-rotator-accordion-rotator {
-    width: 63.3%;
+   #block-accordion-rotator-accordion-rotator {
+    width: 61.5%;
+    margin-left: 1.5%;
   }
 }
 
@@ -333,7 +335,8 @@ $zen-auto-include-item-base: false;
     margin-top: 2em;
   }  
   #block-accordion-rotator-accordion-rotator {
-    width: 100%;
+    width: 97.5%;
+    margin-left: 1%;
   }
 }
 
@@ -381,7 +384,8 @@ $zen-auto-include-item-base: false;
     margin-top: 2em;
   }
   #block-accordion-rotator-accordion-rotator {
-    width: 100%;
+    width: 97.5%;
+    margin-left: 1%;
   }
 }
 
@@ -429,6 +433,7 @@ $zen-auto-include-item-base: false;
     margin-top: 2em;
   }
   #block-accordion-rotator-accordion-rotator {
-    width: 100%;
+    width: 97.5%;
+    margin-left: 1%;
   }
 }

@@ -41,7 +41,7 @@
  *
 **/
 
-.front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
+.front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1, .front #block-block-4 {
   background: #fff;
   float: right;
   position: relative;
@@ -184,7 +184,7 @@
 #block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
 }
 
-#block-block-1 { /* First block created with "Add block" link */
+#block-block-1, #block-block-4 { /* First block created with "Add block" link */
   height: 70px !important;
   background: #419845 !important;
   font-size: 130%;
@@ -212,6 +212,7 @@
   padding: 15px;
   margin: 0 1.1% 0 0;
   background: #fff;
+  min-height: 520px;
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
     -webkit-box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
 }
@@ -221,7 +222,7 @@
   margin: 0;
   font-size: 90%;
   th.views-field-search, th.views-field-pageviews {
-    padding: 1em 0;
+    padding: 0.8em 0;
   }
 }
 
@@ -242,9 +243,27 @@
   }
 }
 
-#block-views-7518164537523ba73652c9a5fd647fe6 {
+#block-views-frontpage-solr-boxes-block-1 {
   @extend #block-views-object-visitors-by-month-block;
 }
+
+/* Accordion Rotator */
+
+#block-accordion-rotator-accordion-rotator {
+  h2 {
+    font-size: 120%;
+    padding: 0 15px;
+    font-family: 'News Cycle' !important;
+  }
+  p {
+    font-size: 80%;
+    font-weight: normal;
+    padding: 0 15px;
+    font-family: arial, helvetica, verdana, sans-serif  !important;
+    margin: 0;
+  }
+}
+
 
 
 /* Blockify */
