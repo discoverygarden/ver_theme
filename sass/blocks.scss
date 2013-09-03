@@ -349,55 +349,16 @@
 #block-user-online { /* "Who's online" block for a list of the online users */
 }
 
-// Temp
-
 /*
-#block-views-frontpage-slider-block {
-  font-size: 85%;
-  line-height: 0.7em;
-}
-
- .views-slideshow-controls-top {
-   position: relative;
-   left: 950px;
-   top: -44px;
-   width: 50px;
-
-   #views_slideshow_controls_text_previous_frontpage_slider-block a {
-     background: url('../images/slide_left.png') no-repeat;
-     display: block;
-     height: 19px;
-     text-indent: -9999px;
-     width: 17px;
-
-     position: relative;
-   }
-
-   #views_slideshow_controls_text_next_frontpage_slider-block a {
-     background: url('../images/slide_right.png') no-repeat;
-     display: block;
-     height: 19px;
-     text-indent: -9999px;
-     width: 17px;
-
-     position: relative;
-     left: 35px;
-     top: -19px;
-   }
-
-   #views_slideshow_controls_text_pause_frontpage_slider-block {
-     display: none;
-   }
- }
-
- #views_slideshow_cycle_teaser_section_frontpage_slider-block {
-   top: -112px;
-   left: 300px;
-
-   a {
-     color: blue;
-     letter-spacing: 0.2em;
-     text-transform: uppercase;
-   }
- }
+ * Social Media block
 */
+
+#block-widgets-s-socialmedia-share-default {
+  float: right;
+  .widgets-element {
+    img {
+      width: 85%; 
+      height: 85%; 
+    }
+  }
+}

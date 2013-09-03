@@ -29,29 +29,6 @@ body {
     border-right: 10px solid #5a5b5d;  
 }
 
-/*
-body:before, body:after {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    background-color: #343334; // Old browsers
-}
-
-body:before {
-    top: 0;
-    height: 30px;
-      @include filter-gradient(#343334, #5a5b5d, vertical); // IE6-9
-      @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
-}
-body:after {
-    bottom: 0;
-    height: 10px;
-      @include filter-gradient(#5a5b5d, #343334, vertical); // IE6-9
-      @include background-image(linear-gradient(top,  #5a5b5d 0%,#343334 100%));
-}
-*/
-
 #page {
   background: #E2E2E2;
 }
@@ -117,6 +94,9 @@ dl.solr-thumb {
 
 #header {
 }
+.not-logged-in #header {
+  padding-top: 1em;
+}
 
 #logo { /* Wrapping link for logo */
   float: left; /* LTR */
@@ -125,18 +105,6 @@ dl.solr-thumb {
 
   img {
     vertical-align: bottom;
-  }
-}
-
-#social {
-  float: right;
-  padding-left: 4px;
-  margin-top: 0.3em;
-  a {
-    margin-left: 5px;
-  }
-  img {
-    box-shadow: 0 3px 3px -3px #808184;
   }
 }
 
@@ -357,7 +325,7 @@ ul.pager li.pager-current {
  */
 
 #footer {
-  margin-top: 0.5em;
+  margin-top: 1.8em;
 }
 
 /*

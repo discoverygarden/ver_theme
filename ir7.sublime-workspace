@@ -27,7 +27,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 6779,
+				"buffer_size": 6744,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 5722,
+				"buffer_size": 11331,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 2115,
+				"buffer_size": 2731,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "sass/views-styles.scss",
 			"settings":
 			{
-				"buffer_size": 1302,
+				"buffer_size": 1392,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 7356,
+				"buffer_size": 7960,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "templates/page.tpl.php",
 			"settings":
 			{
-				"buffer_size": 6915,
+				"buffer_size": 6828,
 				"line_ending": "Unix"
 			}
 		}
@@ -236,7 +236,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -244,43 +244,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 6779,
+						"buffer_size": 6744,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 32.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/layouts/responsive-sidebars.scss",
-					"settings":
-					{
-						"buffer_size": 5722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								2252,
+								2252
 							]
 						],
 						"settings":
@@ -296,11 +268,39 @@
 					"type": "text"
 				},
 				{
+					"buffer": 1,
+					"file": "sass/layouts/responsive-sidebars.scss",
+					"settings":
+					{
+						"buffer_size": 11331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2472,
+								2472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 849.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
 					"buffer": 2,
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 2115,
+						"buffer_size": 2731,
 						"regions":
 						{
 						},
@@ -356,7 +356,7 @@
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
-						"buffer_size": 1302,
+						"buffer_size": 1392,
 						"regions":
 						{
 						},
@@ -374,7 +374,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 119.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -384,15 +384,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 7356,
+						"buffer_size": 7960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6592,
-								6592
+								4017,
+								4017
 							]
 						],
 						"settings":
@@ -402,7 +402,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 367.0,
+						"translation.y": 3692.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -412,7 +412,7 @@
 					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 6915,
+						"buffer_size": 6828,
 						"regions":
 						{
 						},
