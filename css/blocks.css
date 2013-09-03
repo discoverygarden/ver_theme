@@ -43,7 +43,7 @@
  *
 **/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000344}}
-.front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1, .front #block-block-4 {
+#block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-4, #block-views-image-blocks-block-2 {
   background: #fff;
   float: right;
   position: relative;
@@ -55,13 +55,27 @@
   -webkit-box-shadow: 0px 0px 5px 1px rgba(38, 37, 38, 0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000357}}
+#block-views-image-blocks-block-2 h2 {
+  color: #3D8396;
+  margin: 0.8em 0;
+  font-weight: normal;
+  font-size: 120%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000363}}
+#block-views-image-blocks-block-2 p {
+  margin: 0.2em 0;
+  line-height: 1.3em;
+  color: #424143;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000370}}
 #block-accordion-rotator-accordion-rotator {
   max-height: 446px;
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000375}}
 #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block-2, #block-views-frontpage-solr-boxes-block-3 {
   float: left;
   background: #fff;
@@ -72,17 +86,17 @@
   -webkit-box-shadow: 0px 0px 5px 1px rgba(38, 37, 38, 0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000384}}
 #block-views-frontpage-solr-boxes-block-2 {
   margin-right: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000388}}
 #block-views-frontpage-solr-boxes-block-1 h3 {
   margin-bottom: 0.5em;
   font-size: 95%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000392}}
 #block-views-frontpage-solr-boxes-block-1 p {
   margin-top: 0;
   margin-bottom: 2em;
@@ -90,7 +104,7 @@
   line-height: 1.4em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003100}}
 #block-views-frontpage-solr-boxes-block {
   background: #fff;
   float: left;
@@ -98,31 +112,31 @@
   box-shadow: 0px 0px 5px 1px rgba(38, 37, 38, 0.3);
   -webkit-box-shadow: 0px 0px 5px 1px rgba(38, 37, 38, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003107}}
 #block-views-frontpage-solr-boxes-block .views-field-counter {
   color: #808184;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003113}}
 #block-views-top-site-searches-block table, #block-views-top-facet-searches-block table {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003119}}
 .block-islandora-solr ul {
   margin: 0.5em 0 0;
   padding: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003122}}
 .block-islandora-solr ul li {
   list-style: none;
   border-bottom: 1px solid #eef0ed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003126}}
 .block-islandora-solr ul li:hover {
   background: #F7F9F6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003131}}
 .block-islandora-solr h3 {
   margin-bottom: 0;
   color: #5A5B5D;
@@ -130,29 +144,29 @@
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003139}}
 .count {
   color: #888;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003143}}
 .plusminus {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003147}}
 #block-islandora-solr-display-switch {
   float: right;
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003155}}
 #block-islandora-solr-display-switch ul li {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003161}}
 .islandora-solr-display a.display-default, .islandora-solr-display a.display-grid, .islandora-solr-display a.display-table {
   background: url("../images/display-grid-list.png") no-repeat scroll left top transparent;
   display: inline-block;
@@ -162,12 +176,12 @@
   width: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003170}}
 .islandora-solr-display a.display-grid {
   background: url("../images/display-grid.png") no-repeat scroll left top transparent;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003174}}
 .islandora-solr-display a.display-table {
   background: url("../images/display-list.png") no-repeat scroll left top transparent;
 }
@@ -176,7 +190,7 @@
   * @Menus 
   *
 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003183}}
 #block-menu-menu-header-menu {
   height: 30px;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF343334', endColorstr='#FF5A5B5D');
@@ -191,17 +205,17 @@
  * @Views Blocks
  *
 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003195}}
 #block-aggregator-category-1 {
   /* Block for the latest news items in the first category */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003198}}
 #block-aggregator-feed-1 {
   /* Block for the latest news items in the first feed */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003201}}
 #block-block-1, #block-block-4 {
   /* First block created with "Add block" link */
   height: 70px !important;
@@ -210,25 +224,25 @@
   font-weight: normal;
   line-height: 0.6em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003207}}
 #block-block-1 a, #block-block-4 a {
   color: #fff;
-  margin-left: 2.6em;
+  margin-left: 3.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003213}}
 #block-block-2 {
   float: right;
   margin-bottom: 0;
   margin-top: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003217}}
 #block-block-2 p {
   margin: 0;
 }
 
 /* @Google Analytics Views */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003224}}
 #block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
   float: left;
   padding: 15px;
@@ -239,40 +253,40 @@
   -webkit-box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003234}}
 #block-views-top-site-searches-block {
   margin: 0;
   font-size: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003238}}
 #block-views-top-site-searches-block th.views-field-search, #block-views-top-site-searches-block th.views-field-pageviews {
   padding: 0.8em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003243}}
 #block-views-top-facet-searches-block {
   margin: 0;
   font-size: 90%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003251}}
 .block-google-analytics-reports h3 {
   font-size: 93%;
   color: #424143;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003255}}
 .block-google-analytics-reports ol, .block-google-analytics-reports p {
   font-size: 90%;
 }
 
 /* Accordion Rotator */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003267}}
 #block-accordion-rotator-accordion-rotator h2 {
   font-size: 120%;
   padding: 0 15px;
   font-family: "News Cycle" !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003272}}
 #block-accordion-rotator-accordion-rotator p {
   font-size: 80%;
   font-weight: normal;
@@ -282,131 +296,131 @@
 }
 
 /* Blockify */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003286}}
 #block-blockify-blockify-logo img {
   width: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003291}}
 #block-blog-recent {
   /* "Recent blog posts" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003294}}
 #block-book-navigation {
   /* "Book navigation" block for the current book's table of contents */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003297}}
 #block-comment-recent {
   /* "Recent comments" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003300}}
 #block-forum-active {
   /* "Active forum topics" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003303}}
 #block-forum-new {
   /* "New forum topics" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003306}}
 #block-locale-language {
   /* Language switcher block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003309}}
 #block-menu-menu-NAME {
   /* Custom menu block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003312}}
 #block-node-recent {
   /* "Recent content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003315}}
 #block-node-syndicate {
   /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003318}}
 #block-poll-recent {
   /* "Most recent poll" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003321}}
 #block-profile-author-information {
   /* "Author information" block for the profile of the page's author */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003324}}
 #block-search-form {
   /* "Search form" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003327}}
 #block-shortcut-shortcuts {
   /* "Shortcuts" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003330}}
 #block-statistics-popular {
   /* "Popular content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003333}}
 #block-system-main-menu {
   /* "Main menu" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003336}}
 #block-system-management {
   /* "Management" block for Drupal management menu */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003339}}
 #block-system-navigation {
   /* "Navigation" block for Drupal navigation menu */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003340}}
 #block-system-navigation ul {
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003345}}
 #block-system-user-menu {
   /* "User menu" block for Drupal user menu */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003348}}
 #block-system-help {
   /* "System help" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003351}}
 #block-system-main {
   /* "Main page content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003354}}
 #block-system-powered-by {
   /* "Powered by Drupal" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003357}}
 #block-user-login {
   /* "User login form" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003360}}
 #block-user-new {
   /* "Who's new" block for a list of the newest users */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003363}}
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }
@@ -414,11 +428,11 @@
 /*
  * Social Media block
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003370}}
 #block-widgets-s-socialmedia-share-default {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003373}}
 #block-widgets-s-socialmedia-share-default .widgets-element img {
   width: 85%;
   height: 85%;
