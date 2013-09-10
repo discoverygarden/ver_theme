@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"block-views-front",
+				"block-views-frontpage-solr-boxes-block"
+			],
+			[
 				"border-left-",
 				"border-bottom-left-radius"
 			],
@@ -27,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 6744,
+				"buffer_size": 6094,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +39,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 11331,
+				"buffer_size": 10439,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +63,7 @@
 			"file": "sass/views-styles.scss",
 			"settings":
 			{
-				"buffer_size": 1392,
+				"buffer_size": 1301,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +71,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 7960,
+				"buffer_size": 7340,
 				"line_ending": "Unix"
 			}
 		},
@@ -76,6 +80,14 @@
 			"settings":
 			{
 				"buffer_size": 6828,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/forms.scss",
+			"settings":
+			{
+				"buffer_size": 3959,
 				"line_ending": "Unix"
 			}
 		}
@@ -244,15 +256,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 6744,
+						"buffer_size": 6094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2252,
-								2252
+								0,
+								0
 							]
 						],
 						"settings":
@@ -272,15 +284,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 11331,
+						"buffer_size": 10439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2472,
-								2472
+								9500,
+								9500
 							]
 						],
 						"settings":
@@ -290,7 +302,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 849.0,
+						"translation.y": 739.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -318,7 +330,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 707.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -346,7 +358,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6059.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -356,15 +368,15 @@
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
-						"buffer_size": 1392,
+						"buffer_size": 1301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1301,
+								1301
 							]
 						],
 						"settings":
@@ -374,7 +386,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 233.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -384,15 +396,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 7960,
+						"buffer_size": 7340,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4017,
-								4017
+								5078,
+								5078
 							]
 						],
 						"settings":
@@ -402,7 +414,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3692.0,
+						"translation.y": 4192.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -430,7 +442,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 659.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/forms.scss",
+					"settings":
+					{
+						"buffer_size": 3959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3959,
+								3959
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1333.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -41,7 +41,7 @@
  *
 **/
 
-#block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-4, #block-views-image-blocks-block-2 {
+#block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-4, #block-block-1, #block-views-image-blocks-block-2 {
   background: #fff;
   float: right;
   position: relative;
@@ -85,6 +85,12 @@
   margin-right: none !important;
 }
 #block-views-frontpage-solr-boxes-block-1 {
+  width: 97.4%;
+  .views-row {
+    float: left;
+    max-width: 40%;
+    padding: 1em 1em 1em 0;
+  }
   h3 {
     margin-bottom: 0.5em;
     font-size: 95%;
@@ -94,6 +100,12 @@
     margin-bottom: 2em;
     font-size: 80%;
     line-height: 1.4em;
+  }
+  img {
+    float: left;
+    width: 115px;
+    height: 115px;
+    padding-right: 10px;
   }
 }
 
@@ -257,7 +269,7 @@
   }
 }
 
-#block-views-frontpage-solr-boxes-block-1 {
+#block-views-frontpage-solr-boxes-block {
   @extend #block-views-object-visitors-by-month-block;
 }
 
@@ -372,7 +384,6 @@
   .widgets-element {
     img {
       width: 85%; 
-      height: 85%; 
     }
   }
 }
