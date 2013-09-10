@@ -225,9 +225,9 @@ $zen-auto-include-item-base: false;
     width: 30%;
   }  
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.4%;
+    width: 97.5%;
   }
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, #block-block-1, #block-block-4 {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
     width: 60%;
   }
   .view-frontpage-solr-boxes .views-responsive-grid {
@@ -242,13 +242,13 @@ $zen-auto-include-item-base: false;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1199px) {
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
     width: 29.55%;
   }  
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.2%;
+    width: 97% !important;
   }
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
     width: 33%;
   }
   .view-frontpage-solr-boxes .views-responsive-grid {
@@ -264,14 +264,14 @@ $zen-auto-include-item-base: false;
 }
 
 @media all and (min-width: 960px) and (max-width: 1023px) {
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block {
     width: 29.35%;
   }  
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
     width: 33%;
   }
   #block-views-frontpage-solr-boxes-block-1 { 
-    width: 96.6%;
+    width: 96.7% !important;
   }
   #block-menu-menu-header-menu {
     float: none !important;
@@ -287,19 +287,19 @@ $zen-auto-include-item-base: false;
 }
 
 @media all and (min-width: 800px) and (max-width: 959px) {
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block {
     width: 28.66%;
   }  
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.5%;
+    width: 96.7% !important;
   }
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
     float: left !important;
     width: 50%;  
     max-width: 46% !important; 
     margin-right: 10px;
   }
-  .front #block-block-1 {
+  #block-block-1, #block-block-4 {
     display: none;
   }
   #block-views-image-blocks-block {
@@ -327,15 +327,15 @@ $zen-auto-include-item-base: false;
     width: 27.6%;
   }
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97%;
+    width: 96.9%;
   }
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
       float: left !important;
       width: 50%;  
       max-width: 46% !important; 
       margin-right: 10px;
   }
-  .front #block-block-1 {
+  .front #block-block-1, #block-block-4 {
     display: none;
   }
   #block-views-image-blocks-block {
@@ -367,13 +367,13 @@ $zen-auto-include-item-base: false;
   #block-views-frontpage-solr-boxes-block-1 {
     width: 96%;
   }
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
       float: left !important;
       width: 96%;
       max-width: 100% !important; 
       margin-right: 10px;
   }
-  .front #block-block-1 {
+  #block-block-1, #block-block-4 {
     display: none;
   }
   #block-views-image-blocks-block {

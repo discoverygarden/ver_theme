@@ -273,11 +273,11 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003227}}
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.4%;
+    width: 97.5%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003230}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, #block-block-1, #block-block-4 {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
     width: 60%;
   }
 
@@ -294,17 +294,17 @@
 }
 @media all and (min-width: 1024px) and (max-width: 1199px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003245}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
     width: 29.55%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003248}}
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.2%;
+    width: 97% !important;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003251}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
     width: 33%;
   }
 
@@ -322,18 +322,18 @@
 }
 @media all and (min-width: 960px) and (max-width: 1023px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003267}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block {
     width: 29.35%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003270}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
     width: 33%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003273}}
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 96.6%;
+    width: 96.7% !important;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003276}}
@@ -355,17 +355,17 @@
 }
 @media all and (min-width: 800px) and (max-width: 959px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003290}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block {
     width: 28.66%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003293}}
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.5%;
+    width: 96.7% !important;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003296}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
     float: left !important;
     width: 50%;
     max-width: 46% !important;
@@ -373,7 +373,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003302}}
-  .front #block-block-1 {
+  #block-block-1, #block-block-4 {
     display: none;
   }
 
@@ -412,11 +412,11 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003329}}
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97%;
+    width: 96.9%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003332}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
     float: left !important;
     width: 50%;
     max-width: 46% !important;
@@ -424,7 +424,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003338}}
-  .front #block-block-1 {
+  .front #block-block-1, #block-block-4 {
     display: none;
   }
 
@@ -469,7 +469,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003370}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
+  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
     float: left !important;
     width: 96%;
     max-width: 100% !important;
@@ -477,7 +477,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003376}}
-  .front #block-block-1 {
+  #block-block-1, #block-block-4 {
     display: none;
   }
 
