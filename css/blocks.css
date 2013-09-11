@@ -43,7 +43,7 @@
  *
 **/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000344}}
-#block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-4, #block-block-1, #block-views-image-blocks-block-2 {
+#block-islandora-solr-simple, .image-block-front, .submit-collection-anon, .submit-collection, .welcome {
   background: #fff;
   float: right;
   position: relative;
@@ -56,14 +56,14 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000357}}
-#block-views-image-blocks-block-2 h2 {
+.welcome h2 {
   color: #3D8396;
   margin: 0.8em 0;
   font-weight: normal;
   font-size: 120%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000363}}
-#block-views-image-blocks-block-2 p {
+.welcome p {
   margin: 0.2em 0;
   line-height: 1.3em;
   color: #424143;
@@ -103,10 +103,10 @@
   font-size: 95%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000397}}
-#block-views-frontpage-solr-boxes-block-1 p {
+#block-views-frontpage-solr-boxes-block-1 .views-field-dcdescription span {
   margin-top: 0;
   margin-bottom: 2em;
-  font-size: 80%;
+  font-size: 90%;
   line-height: 1.4em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003103}}
@@ -235,7 +235,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003217}}
-#block-block-1, #block-block-4 {
+.submit-collection, .submit-collection-anon {
   /* First block created with "Add block" link */
   height: 70px !important;
   background: #419845 !important;
@@ -244,7 +244,7 @@
   line-height: 0.6em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003223}}
-#block-block-1 a, #block-block-4 a {
+.submit-collection a, .submit-collection-anon a {
   color: #fff;
   margin-left: 3.2em;
 }

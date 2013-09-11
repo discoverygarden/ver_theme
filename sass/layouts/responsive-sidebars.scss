@@ -225,9 +225,9 @@ $zen-auto-include-item-base: false;
     width: 30%;
   }  
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.5%;
+    width: 97.5% !important;
   }
-  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
+  #block-islandora-solr-simple, .image-block-front, .submit-collection, .submit-collection-anon, .welcome {
     width: 60%;
   }
   .view-frontpage-solr-boxes .views-responsive-grid {
@@ -248,7 +248,7 @@ $zen-auto-include-item-base: false;
   #block-views-frontpage-solr-boxes-block-1 {
     width: 97% !important;
   }
-  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
+  #block-islandora-solr-simple, .image-block-front, .submit-collection, .submit-collection-anon, .welcome {
     width: 33%;
   }
   .view-frontpage-solr-boxes .views-responsive-grid {
@@ -267,7 +267,7 @@ $zen-auto-include-item-base: false;
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block {
     width: 29.35%;
   }  
-  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-block-1, #block-block-4, #block-views-image-blocks-block-2 {
+  #block-islandora-solr-simple, .image-block-front, .submit-collection, .submit-collection-anon, .welcome {
     width: 33%;
   }
   #block-views-frontpage-solr-boxes-block-1 { 
@@ -293,16 +293,16 @@ $zen-auto-include-item-base: false;
   #block-views-frontpage-solr-boxes-block-1 {
     width: 95.7% !important;
   }
-  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
+  #block-islandora-solr-simple, .image-block-front, .welcome {
     float: left !important;
     width: 50%;  
     min-width: 46% !important; 
     margin-right: 3px;
   }
-  #block-block-1, #block-block-4 {
+  .submit-collection, .submit-collection-anon {
     display: none;
   }
-  #block-views-image-blocks-block {
+  .image-block-front {
     margin-right: 0 !important;
     img {
       display: block;
@@ -332,16 +332,16 @@ $zen-auto-include-item-base: false;
       max-width: 100% !important;
     }
   }
-  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
+  #block-islandora-solr-simple, .image-block-front, .welcome {
       float: left !important;
       width: 50%;  
       max-width: 46% !important; 
       margin-right: 3px !important;
   }
-  .front #block-block-1, #block-block-4 {
+  .submit-collection, .submit-collection-anon {
     display: none;
   }
-  #block-views-image-blocks-block {
+  .image-block-front {
     margin-right: 0 !important;
     img {
       display: block;
@@ -373,16 +373,16 @@ $zen-auto-include-item-base: false;
       max-width: 100% !important;
     }
   }
-  #block-islandora-solr-simple, #block-views-image-blocks-block, #block-views-image-blocks-block-2 {
+  #block-islandora-solr-simple, .image-block-front, .welcome {
       float: left !important;
       width: 96%;
       max-width: 100% !important; 
       margin-right: 10px;
   }
-  #block-block-1, #block-block-4 {
+  .submit-collection, .submit-collection-anon {
     display: none;
   }
-  #block-views-image-blocks-block {
+  .image-block-front {
     margin-right: 0 !important;
     img {
       display: block;
