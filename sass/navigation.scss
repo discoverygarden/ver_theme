@@ -88,9 +88,10 @@ li a.active {
   position: relative;
   text-align: right;
   font-size: 85%;
-    float: right;  
-    line-height: 0.3em;
+  float: right;  
+  line-height: 0.3em;
   height: 30px;
+  background-image: -ms-linear-gradient(top, #343334 0%, #5a5b5d 100%);
     @include filter-gradient(#343334, #5a5b5d, vertical); // IE6-9
     @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
   ul {

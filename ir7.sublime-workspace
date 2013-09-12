@@ -39,7 +39,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 10439,
+				"buffer_size": 10728,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,15 +47,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 2731,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/normalize.scss",
-			"settings":
-			{
-				"buffer_size": 15229,
+				"buffer_size": 2710,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,23 +63,39 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 7340,
+				"buffer_size": 7521,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/page.tpl.php",
+			"file": "css/ie8.css",
 			"settings":
 			{
-				"buffer_size": 6828,
+				"buffer_size": 51,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/forms.scss",
+			"file": "css/ie9.css",
 			"settings":
 			{
-				"buffer_size": 3959,
+				"buffer_size": 51,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/ie10.css",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ir7.info",
+			"settings":
+			{
+				"buffer_size": 6820,
 				"line_ending": "Unix"
 			}
 		}
@@ -124,6 +132,10 @@
 	},
 	"file_history":
 	[
+		"/Volumes/DGI Sandbox IR/themes/ir7/sass/normalize.scss",
+		"/Volumes/DGI Sandbox IR/themes/ir7/templates/page.tpl.php",
+		"/Volumes/DGI Sandbox IR/themes/ir7/sass/forms.scss",
+		"/Users/morganhi/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Volumes/DGI IR/all/themes/ir7/sass/forms.scss",
 		"/Volumes/DGI IR/all/themes/ir7/ir7.info",
 		"/Volumes/DGI IR/all/themes/ir7/templates/designkit.tpl.php",
@@ -161,7 +173,6 @@
 		"/Users/morganhi/Tmp/Test/test/index.html",
 		"/etc/hosts",
 		"/Users/morganhi/test.txt",
-		"/Users/morganhi/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/morganhi/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
@@ -180,6 +191,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ignored_packages",
 			"extend",
 			"acc_title",
 			"648",
@@ -248,7 +260,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -284,15 +296,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 10439,
+						"buffer_size": 10728,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9500,
-								9500
+								0,
+								0
 							]
 						],
 						"settings":
@@ -301,7 +313,7 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 6.0,
 						"translation.y": 739.0,
 						"zoom_level": 1.0
 					},
@@ -312,7 +324,7 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 2731,
+						"buffer_size": 2710,
 						"regions":
 						{
 						},
@@ -337,34 +349,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "sass/normalize.scss",
-					"settings":
-					{
-						"buffer_size": 15229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
@@ -392,39 +376,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 7340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5078,
-								5078
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4192.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "templates/page.tpl.php",
-					"settings":
-					{
-						"buffer_size": 6828,
+						"buffer_size": 7521,
 						"regions":
 						{
 						},
@@ -437,9 +393,61 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/ie8.css",
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/ie9.css",
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -449,28 +457,52 @@
 				},
 				{
 					"buffer": 7,
-					"file": "sass/forms.scss",
+					"file": "css/ie10.css",
 					"settings":
 					{
-						"buffer_size": 3959,
+						"buffer_size": 52,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3959,
-								3959
+								49,
+								49
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1333.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "ir7.info",
+					"settings":
+					{
+						"buffer_size": 6820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2703,
+								2703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 809.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
