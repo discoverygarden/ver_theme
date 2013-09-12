@@ -68,8 +68,8 @@
  * @see zen_preprocess_page()
  * @see template_process()
  */
-?>
 
+?>
 <a name="top"></a>
 <div id="page">
   <?php print render($page['sub_header']); ?>
