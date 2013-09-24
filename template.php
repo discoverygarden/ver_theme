@@ -227,7 +227,7 @@ function ir7_preprocess_block(&$variables, $hook) {
 
 function ir7_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
   $link = array(
-    '#markup' => l(t("Advanced Search"), "search", array('attributes' => array('class' => array('adv_search')))),
+    '#markup' => l(t("Advanced Search"), "node/10", array('attributes' => array('class' => array('adv_search')))),
   );
   $form['simple']['advanced_link'] = $link;
 }

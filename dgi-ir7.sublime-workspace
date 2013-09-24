@@ -40,6 +40,14 @@
 			}
 		},
 		{
+			"file": "sass/tabs.scss",
+			"settings":
+			{
+				"buffer_size": 2339,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
@@ -67,7 +75,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 2710,
+				"buffer_size": 2778,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,7 +119,7 @@
 				"HTML: Encode Special Characters"
 			]
 		],
-		"width": 392.0
+		"width": 440.0
 	},
 	"console":
 	{
@@ -128,6 +136,11 @@
 	},
 	"file_history":
 	[
+		"/Volumes/DGI Sandbox IR/themes/ir7/ir7.info",
+		"/Volumes/DGI Sandbox IR/themes/ir7/sass/_custom.scss",
+		"/Volumes/DGI Sandbox IR/themes/ir7/sass/_base.scss",
+		"/Volumes/DGI Sandbox IR/themes/ir7/sass/tabs.scss",
+		"/Volumes/DGI Sandbox IR/themes/ir7/template.php",
 		"/Volumes/DGI Sandbox IR/themes/ir7/dgi-ir7.sublime-project",
 		"/Volumes/DGI Sandbox IR/themes/ir7/templates/designkit.tpl.php",
 		"/Volumes/DGI IR/all/themes/ir7/template.php",
@@ -249,7 +262,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -275,13 +288,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "sass/tabs.scss",
+					"settings":
+					{
+						"buffer_size": 2339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
@@ -303,13 +344,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 5.0,
-						"translation.y": 4477.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "sass/blocks.scss",
 					"settings":
 					{
@@ -337,7 +378,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "sass/normalize.scss",
 					"settings":
 					{
@@ -365,19 +406,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 2710,
+						"buffer_size": 2778,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2337,
-								2337
+								0,
+								0
 							]
 						],
 						"settings":
@@ -393,7 +434,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "sass/forms.scss",
 					"settings":
 					{
@@ -421,7 +462,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
@@ -449,7 +490,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "templates/page.tpl.php",
 					"settings":
 					{
