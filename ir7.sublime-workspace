@@ -47,7 +47,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 2710,
+				"buffer_size": 2778,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,31 +71,7 @@
 			"file": "css/ie8.css",
 			"settings":
 			{
-				"buffer_size": 51,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/ie9.css",
-			"settings":
-			{
-				"buffer_size": 51,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/ie10.css",
-			"settings":
-			{
-				"buffer_size": 52,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ir7.info",
-			"settings":
-			{
-				"buffer_size": 6820,
+				"buffer_size": 489,
 				"line_ending": "Unix"
 			}
 		}
@@ -132,8 +108,11 @@
 	},
 	"file_history":
 	[
-		"/Volumes/DGI Sandbox IR/themes/ir7/sass/normalize.scss",
+		"/Volumes/DGI Sandbox IR/themes/ir7/ir7.info",
+		"/Volumes/DGI Sandbox IR/themes/ir7/css/ie10.css",
 		"/Volumes/DGI Sandbox IR/themes/ir7/templates/page.tpl.php",
+		"/Volumes/DGI Sandbox IR/themes/ir7/css/ie9.css",
+		"/Volumes/DGI Sandbox IR/themes/ir7/sass/normalize.scss",
 		"/Volumes/DGI Sandbox IR/themes/ir7/sass/forms.scss",
 		"/Users/morganhi/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Volumes/DGI IR/all/themes/ir7/sass/forms.scss",
@@ -191,6 +170,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"google-",
+			"header",
 			"ignored_packages",
 			"extend",
 			"acc_title",
@@ -260,7 +241,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -314,7 +295,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 6.0,
-						"translation.y": 739.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -324,15 +305,15 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 2710,
+						"buffer_size": 2778,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1770,
+								1770
 							]
 						],
 						"settings":
@@ -342,7 +323,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 749.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -387,8 +368,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								4519,
+								4476
 							]
 						],
 						"settings":
@@ -398,7 +379,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 4209.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -408,15 +389,15 @@
 					"file": "css/ie8.css",
 					"settings":
 					{
-						"buffer_size": 51,
+						"buffer_size": 489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								51,
-								51
+								485,
+								485
 							]
 						],
 						"settings":
@@ -425,84 +406,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/ie9.css",
-					"settings":
-					{
-						"buffer_size": 51,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								48,
-								48
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "css/ie10.css",
-					"settings":
-					{
-						"buffer_size": 52,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								49,
-								49
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "ir7.info",
-					"settings":
-					{
-						"buffer_size": 6820,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2703,
-								2703
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 809.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

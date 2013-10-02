@@ -94,8 +94,8 @@ dl.solr-thumb {
 
 #header {
 }
-.not-logged-in #header {
-  padding-top: 1em;
+.logged-in.not-front #header {
+  padding-top: 1.25em;
 }
 
 #logo { /* Wrapping link for logo */
@@ -297,6 +297,20 @@ ul.pager li.pager-current {
 }
 
 .more-link { /* Aggregator, blog, and forum more link */
+}
+
+#google-pdf-viewer {
+  padding-top: 1.5em;
+}
+
+.islandora-pdf-link {
+  float: right;
+}
+
+.islandora-pdf-sidebar {
+  ul {
+    padding: 0 1em;
+  }
 }
 
 /*

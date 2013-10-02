@@ -121,10 +121,13 @@ $zen-auto-include-item-base: false;
   .sidebar-second {
     #content { /* Span 2 columns, starting in 1st column from left. */
       @include zen-grid-item(2, 1);
+      width: 73.333% !important;
     }
 
     .region-sidebar-second { /* Span 1 column, starting in 3rd column from left. */
       @include zen-grid-item(1, 3);
+      width: 25% !important;
+      margin-left: 68.28% !important;
     }
   }
 
@@ -176,14 +179,14 @@ $zen-auto-include-item-base: false;
   .sidebar-first {
     #content { /* Span 4 columns, starting in 2nd column from left. */
       @include zen-grid-item(4, 2);
-      margin-left: 22%;
-      width: 78%;
+      margin-left: 21% !important;
+      width: 79% !important;
     }
 
     .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
       @include zen-grid-item(1, 1);
-      margin-right: -21%;
-      width: 21%;
+      margin-right: -21% !important;
+      width: 21% !important;
     }
   }
 
@@ -194,6 +197,8 @@ $zen-auto-include-item-base: false;
   .sidebar-second {
     #content { /* Span 4 columns, starting in 1st column from left. */
       @include zen-grid-item(4, 1);
+      width: 79% !important;
+      margin-right: -79% !important;
     }
 
     .region-sidebar-second { /* Span 1 column, starting in 5th column from left. */
@@ -239,6 +244,12 @@ $zen-auto-include-item-base: false;
   #block-accordion-rotator-accordion-rotator {
     width: 65.3%;
   }
+  .not-front #block-menu-menu-header-menu {
+    top: 1.5em; 
+  } 
+  .not-logged-in #header {
+    padding-top: 1em;
+  }
 }
 
 @media all and (min-width: 1024px) and (max-width: 1199px) {
@@ -260,6 +271,9 @@ $zen-auto-include-item-base: false;
   #block-accordion-rotator-accordion-rotator {
     width: 61.5%;
     margin-left: 1.5%;
+  }
+  .not-logged-in #header {
+    padding-top: 1em;
   }
 }
 
