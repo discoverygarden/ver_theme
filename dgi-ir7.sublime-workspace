@@ -67,7 +67,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 2778,
+				"buffer_size": 2784,
 				"line_ending": "Unix"
 			}
 		},
@@ -254,7 +254,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -374,15 +374,15 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 2778,
+						"buffer_size": 2784,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2111,
-								2111
+								1974,
+								1974
 							]
 						],
 						"settings":
@@ -392,7 +392,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 867.0,
+						"translation.y": 1076.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
