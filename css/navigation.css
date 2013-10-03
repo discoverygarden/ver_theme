@@ -97,7 +97,7 @@ li a.active {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000397}}
 #block-menu-menu-header-menu ul {
-  margin: 1em;
+  margin: 1em 0.8em;
   padding-left: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\00003100}}

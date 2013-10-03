@@ -95,7 +95,7 @@ li a.active {
     @include filter-gradient(#343334, #5a5b5d, vertical); // IE6-9
     @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
   ul {
-    margin: 1em;
+    margin: 1em 0.8em;
     padding-left: 15px;
     li {
       display: inline-block; 
