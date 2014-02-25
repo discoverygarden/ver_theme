@@ -1,6 +1,6 @@
 /**
  * @file
- *   Prevents the 'search all keywords' in basic search from beingsearched.
+ *   Prevents the 'search all keywords' in basic search from being searched.
  */
 (function ($) {
   Drupal.behaviors.ir7_prevent_search_all = {
