@@ -118,6 +118,7 @@ html {
   font-size: 85% * ($base-font-size / 16px); /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -ms-text-size-adjust: 100%; /* 2 */
+  height: 100%;
   /* Establishes a vertical rhythm unit using $base-line-height. */
   @include adjust-leading-to(1);
 }
@@ -140,6 +141,12 @@ textarea {
 
 body {
   margin: 0;
+  padding: 0;
+  background: #DAD8D8;
+  background: image-url('bg.png') repeat scroll 0 0 #222222;
+  min-height: 100%;
+    border-left: 10px solid #5a5b5d;
+    border-right: 10px solid #5a5b5d;  
 }
 
 
