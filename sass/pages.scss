@@ -71,6 +71,16 @@ dl.solr-thumb {
  * Header
  */
 
+/*Accordion Rotator */
+
+div.accordion_button.next {
+  margin-right: 5px;
+}
+div.accordion_button.previous {
+  margin-left: 5px;
+}
+
+
 #header {
 }
 .logged-in.not-front #header {

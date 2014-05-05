@@ -19,12 +19,13 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
+  padding: 0 10px;
 }
 
 /*
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000366}}
 #header,
 #content,
 #navigation,
@@ -62,117 +63,57 @@
 /*
  * Navigation bar
  */
-@media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000384}}
+@media all and (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000385}}
   #main {
     padding-top: 1.1em;
     /* Move all the children of #main down to make room. */
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000389}}
   #navigation {
     top: 0;
     /* Move the navbar up inside #main's padding. */
     width: 100%;
   }
 }
-@media all and (min-width: 320px) and (max-width: 639px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000398}}
+@media all and (min-width: 320px) and (max-width: 759px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000399}}
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block,
   .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1,
   #block-views-frontpage-solr-boxes-block {
-    width: 95% !important;
-    margin-bottom: 1em !important;
+    width: 91% !important;
+    margin: 0 0 1em 0 !important;
+    min-height: 0 !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003102}}
-  #block-views-frontpage-solr-boxes-block-1 {
-    width: 96%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003105}}
   #block-views-frontpage-solr-boxes-block-1 .views-row {
     max-width: 100% !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003109}}
   #block-islandora-solr-simple, .image-block-front, .welcome {
     float: left !important;
-    width: 96%;
+    width: 94%;
     max-width: 100% !important;
     margin-right: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003115}}
   .submit-collection, .submit-collection-anon {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003118}}
   .image-block-front {
     margin-right: 0 !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003120}}
   .image-block-front img {
     display: block;
     margin: 0 auto;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003124}}
-  #block-menu-menu-header-menu {
-    float: none !important;
-    line-height: 2em !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003128}}
-  #header {
-    margin-top: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003131}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 97.5%;
-    margin-left: 1%;
-  }
-}
-@media all and (min-width: 640px) and (max-width: 799px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003139}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block,
-  .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
-    width: 27.6% !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003142}}
-  .submit-collection, .submit-collection-anon {
-    display: none;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003145}}
-  .image-block-front {
-    margin-right: 0 !important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003147}}
-  .image-block-front img {
-    display: block;
-    margin: 0 auto;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003152}}
-  #block-menu-menu-header-menu {
-    float: none !important;
-    line-height: 2em !important;
-    top: 5px;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003157}}
-  #header {
-    margin-top: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003160}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 97.5%;
-    margin-left: 1%;
   }
 }
 @media all and (min-width: 480px) and (max-width: 959px) {
@@ -182,7 +123,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003138}}
   .sidebar-first #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: left;
@@ -190,7 +131,7 @@
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003142}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -202,7 +143,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003152}}
   .sidebar-second #content {
     /* Span 2 columns, starting in 1st column from left. */
     float: left;
@@ -211,7 +152,7 @@
     margin-right: -66.66667%;
     width: 73.333% !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003157}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 3rd column from left. */
     float: left;
@@ -225,7 +166,7 @@
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003169}}
   .two-sidebars #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: left;
@@ -233,7 +174,7 @@
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003173}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -241,7 +182,7 @@
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003177}}
   .two-sidebars .region-sidebar-second {
     /* Start a new row and span all 3 columns. */
     float: left;
@@ -252,7 +193,7 @@
     padding-right: 0;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003182}}
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -262,7 +203,7 @@
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003185}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     /* Span 1 column, starting in the 1st column from left. */
     float: left;
@@ -271,7 +212,7 @@
     margin-right: -33.33333%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003189}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     /* Span 1 column, starting in the 2nd column from left. */
     float: left;
@@ -279,7 +220,7 @@
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003192}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     /* Span 1 column, starting in the 3rd column from left. */
     float: left;
@@ -288,57 +229,47 @@
     margin-right: -100%;
   }
 }
-@media all and (min-width: 800px) and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003241}}
+@media all and (min-width: 760px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003202}}
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block,
-  .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1,
-  #block-views-frontpage-solr-boxes-block {
-    width: 28.66%;
+  .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
+    width: 28.45%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003205}}
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 95.7% !important;
+    width: 95.9% !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003208}}
   #block-islandora-solr-simple, .image-block-front, .welcome {
+    width: 64%;
     float: left !important;
-    width: 50%;
-    min-width: 46% !important;
-    margin-right: 3px;
+    max-width: 100% !important;
+    height: 100px !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003215}}
+  .view-frontpage-solr-boxes .views-responsive-grid .views-row {
+    padding: 20px 10px;
+    margin-right: 2em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003220}}
   .submit-collection, .submit-collection-anon {
-    display: none;
+    font-size: 110% !important;
+    line-height: 6.1em !important;
+    width: 29.5%;
+    height: 100px !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003225}}
+  .submit-collection a, .submit-collection-anon a {
+    margin-left: 1em !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003256}}
-  .image-block-front {
-    margin-right: 0 !important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003258}}
-  .image-block-front img {
-    display: block;
-    margin: 0 auto;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003263}}
-  #block-menu-menu-header-menu {
-    float: none !important;
-    line-height: 2em !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003267}}
-  #header {
-    margin-top: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003270}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 97.5%;
-    margin-left: 1%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003229}}
+  #block-islandora-solr-simple #edit-simple {
+    margin-top: 2.2em !important;
   }
 }
 @media all and (min-width: 960px) {
@@ -348,7 +279,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003245}}
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: left;
@@ -358,7 +289,7 @@
     margin-left: 21% !important;
     width: 79% !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003251}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -372,7 +303,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003263}}
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: left;
@@ -382,7 +313,7 @@
     width: 79% !important;
     margin-right: -79% !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003269}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: left;
@@ -394,7 +325,7 @@
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003279}}
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: left;
@@ -402,7 +333,7 @@
     margin-left: 20%;
     margin-right: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003283}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -410,7 +341,7 @@
     margin-left: 0%;
     margin-right: -20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003287}}
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: left;
@@ -418,85 +349,70 @@
     margin-left: 80%;
     margin-right: -100%;
   }
-}
-@media all and (min-width: 960px) and (max-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003338}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block,
-  .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1,
-  #block-views-frontpage-solr-boxes-block {
-    width: 29.35%;
-  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003341}}
-  #block-islandora-solr-simple, .image-block-front, .submit-collection, .submit-collection-anon, .welcome {
-    width: 33%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003344}}
-  #block-views-frontpage-solr-boxes-block-1 {
-    width: 96.7% !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003347}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 61.5%;
-    margin-left: 1.5%;
-  }
-}
-@media all and (min-width: 1024px) and (max-width: 1199px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003292}}
   #block-views-top-site-searches-block, #block-views-top-facet-searches-block,
   .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
-    width: 29.55%;
+    width: 29.4%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003295}}
   #block-views-frontpage-solr-boxes-block-1 {
-    width: 97% !important;
+    width: 96.8% !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003298}}
   #block-islandora-solr-simple, .image-block-front, .submit-collection, .submit-collection-anon, .welcome {
-    width: 33%;
+    width: 36%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003365}}
-  .view-frontpage-solr-boxes .views-responsive-grid .views-row {
-    padding: 20px 10px;
-    margin-right: 1em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003370}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 61.5%;
-    margin-left: 1.5%;
-  }
-}
-@media all and (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003378}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block,
-  .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
-    width: 30%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003381}}
-  #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.5% !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003384}}
-  #block-islandora-solr-simple, .image-block-front, .submit-collection, .submit-collection-anon, .welcome {
-    width: 60%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003302}}
   .view-frontpage-solr-boxes .views-responsive-grid .views-row {
     padding: 20px 10px;
     margin-right: 2em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003307}}
   #block-accordion-rotator-accordion-rotator {
-    width: 65.3%;
+    width: 60.3% !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003310}}
+  #block-menu-menu-header-menu {
+    float: right;
+    line-height: 0.3em !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003314}}
+  .region-sub-header {
+    margin: 0 !important;
+  }
+}
+@media all and (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003321}}
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block,
+  .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
+    width: 30.2%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003324}}
+  #block-views-frontpage-solr-boxes-block-1 {
+    width: 97.5% !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003327}}
+  #block-islandora-solr-simple, .image-block-front, .submit-collection, .submit-collection-anon, .welcome {
+    width: 60%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003331}}
+  .view-frontpage-solr-boxes .views-responsive-grid .views-row {
+    padding: 20px 10px;
+    margin-right: 2em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003336}}
+  #block-accordion-rotator-accordion-rotator {
+    width: 66.9% !important;
   }
 }

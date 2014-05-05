@@ -69,23 +69,27 @@ li a.active {
   list-style-image: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000371}}
+.region-sub-header {
+  margin: -12px -10px;
+  height: 4.5em;
+}
+
 /*
  * Main menu and Secondary menu links and other menu links
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000383}}
 #secondary-menu {
   float: right;
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/navigation\.scss}line{font-family:\0000387}}
 #block-menu-menu-header-menu {
   margin-bottom: 0;
-  position: relative;
   text-align: right;
   font-size: 85%;
-  float: right;
-  line-height: 0.3em;
+  line-height: 2.5em;
   height: 30px;
   background-image: -ms-linear-gradient(top, #343334 0%, #5a5b5d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF343334', endColorstr='#FF5A5B5D');
