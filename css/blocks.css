@@ -2,37 +2,37 @@
  * @file
  * Block Styling
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\000039}}
 .block {
   /* Block wrapper */
   margin-bottom: 1.1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000312}}
 .block.first {
   /* The first block in the region */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000315}}
 .block.last {
   /* The last block in the region */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000318}}
 .block.odd {
   /* Zebra striping for each block in the region */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000321}}
 .block.even {
   /* Zebra striping for each block in the region */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000324}}
 .block h2.block-title {
   /* Block title */
   border-bottom: 2px solid #419845;
+  font-family: 'Ropa Sans';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000330}}
 .front h2.block-title {
-  border-bottom: 1px solid #cccccc;
-  font-size: 125%;
+  border-bottom: 1px solid #ccc;
   font-weight: normal;
   padding: 0.5em 0 0.9em;
   margin-bottom: 0.9em;
@@ -42,7 +42,7 @@
  * @Islandora Blocks
  *
 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000342}}
 #block-islandora-solr-simple, .image-block-front, .submit-collection-anon, .submit-collection, .welcome {
   background: #fff;
   float: right;
@@ -55,27 +55,27 @@
   -webkit-box-shadow: 0px 0px 5px 1px rgba(38, 37, 38, 0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000355}}
 .welcome h2 {
   color: #3D8396;
   margin: 0.8em 0;
   font-weight: normal;
   font-size: 120%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000361}}
 .welcome p {
   margin: 0.2em 0;
   line-height: 1.3em;
   color: #424143;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000368}}
 #block-accordion-rotator-accordion-rotator {
   max-height: 446px;
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000373}}
 #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block-2, #block-views-frontpage-solr-boxes-block-3 {
   float: left;
   background: #fff;
@@ -86,44 +86,44 @@
   -webkit-box-shadow: 0px 0px 5px 1px rgba(38, 37, 38, 0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000382}}
 #block-views-frontpage-solr-boxes-block-2 {
   margin-right: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000386}}
 #block-views-frontpage-solr-boxes-block-1 .views-row {
   float: left;
   max-width: 47%;
   padding: 1em 1em 1em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000391}}
 #block-views-frontpage-solr-boxes-block-1 h3 {
   margin-bottom: 0.5em;
   font-size: 95%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\0000395}}
 #block-views-frontpage-solr-boxes-block-1 .views-field-dcdescription span {
   margin-top: 0;
   margin-bottom: 2em;
   font-size: 90%;
   line-height: 1.4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003101}}
 #block-views-frontpage-solr-boxes-block-1 img {
   float: left;
   width: 115px;
   height: 115px;
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003107}}
 #block-views-frontpage-solr-boxes-block-1 a {
   color: #3D8396;
   font-size: 100%;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003114}}
 #block-views-frontpage-solr-boxes-block {
   background: #fff;
   float: left;
@@ -131,31 +131,31 @@
   box-shadow: 0px 0px 5px 1px rgba(38, 37, 38, 0.3);
   -webkit-box-shadow: 0px 0px 5px 1px rgba(38, 37, 38, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003121}}
 #block-views-frontpage-solr-boxes-block .views-field-counter {
   color: #808184;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003127}}
 #block-views-top-site-searches-block table, #block-views-top-facet-searches-block table {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003133}}
 .block-islandora-solr ul {
   margin: 0.5em 0 0;
   padding: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003136}}
 .block-islandora-solr ul li {
   list-style: none;
   border-bottom: 1px solid #eef0ed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003140}}
 .block-islandora-solr ul li:hover {
   background: #F7F9F6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003145}}
 .block-islandora-solr h3 {
   margin-bottom: 0;
   color: #5A5B5D;
@@ -163,29 +163,29 @@
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003153}}
 .count {
   color: #888;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003157}}
 .plusminus {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003161}}
 #block-islandora-solr-display-switch {
   float: right;
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003169}}
 #block-islandora-solr-display-switch ul li {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003175}}
 .islandora-solr-display a.display-default, .islandora-solr-display a.display-grid, .islandora-solr-display a.display-table {
   background: url("../images/display-grid-list.png") no-repeat scroll left top transparent;
   display: inline-block;
@@ -195,12 +195,12 @@
   width: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003184}}
 .islandora-solr-display a.display-grid {
   background: url("../images/display-grid.png") no-repeat scroll left top transparent;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003188}}
 .islandora-solr-display a.display-table {
   background: url("../images/display-list.png") no-repeat scroll left top transparent;
 }
@@ -209,7 +209,7 @@
   * @Menus 
   *
 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003197}}
 #block-menu-menu-header-menu {
   height: 30px;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF343334', endColorstr='#FF5A5B5D');
@@ -224,17 +224,17 @@
  * @Views Blocks
  *
 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003209}}
 #block-aggregator-category-1 {
   /* Block for the latest news items in the first category */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003212}}
 #block-aggregator-feed-1 {
   /* Block for the latest news items in the first feed */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003215}}
 .submit-collection, .submit-collection-anon {
   /* First block created with "Add block" link */
   height: 70px !important;
@@ -245,18 +245,18 @@
   float: right;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003223}}
 .submit-collection a, .submit-collection-anon a {
   color: #fff;
   margin-left: 3.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003227}}
 .submit-collection p, .submit-collection-anon p {
   margin: 0;
 }
 
 /* @Google Analytics Views */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003234}}
 #block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
   float: left;
   padding: 15px;
@@ -267,174 +267,174 @@
   -webkit-box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003244}}
 #block-views-top-site-searches-block {
   margin: 0;
   font-size: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003248}}
 #block-views-top-site-searches-block th.views-field-search, #block-views-top-site-searches-block th.views-field-pageviews {
   padding: 0.8em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003253}}
 #block-views-top-facet-searches-block {
   margin: 0;
   font-size: 90%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003261}}
 .block-google-analytics-reports h3 {
   font-size: 93%;
   color: #424143;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003265}}
 .block-google-analytics-reports ol, .block-google-analytics-reports p {
   font-size: 90%;
 }
 
 /* Accordion Rotator */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003277}}
 #block-accordion-rotator-accordion-rotator h2 {
   font-size: 120%;
   padding: 0 15px;
-  font-family: "News Cycle" !important;
+  font-family: 'Ropa Sans' !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003282}}
 #block-accordion-rotator-accordion-rotator p {
   font-size: 80%;
   font-weight: normal;
   padding: 0 15px;
-  font-family: arial, helvetica, verdana, sans-serif !important;
+  font-family: arial, helvetica, verdana, sans-serif  !important;
   margin: 0;
 }
 
 /* Blockify */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003296}}
 #block-blockify-blockify-logo img {
   width: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003301}}
 #block-blog-recent {
   /* "Recent blog posts" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003304}}
 #block-book-navigation {
   /* "Book navigation" block for the current book's table of contents */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003307}}
 #block-comment-recent {
   /* "Recent comments" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003310}}
 #block-forum-active {
   /* "Active forum topics" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003313}}
 #block-forum-new {
   /* "New forum topics" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003316}}
 #block-locale-language {
   /* Language switcher block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003319}}
 #block-menu-menu-NAME {
   /* Custom menu block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003322}}
 #block-node-recent {
   /* "Recent content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003325}}
 #block-node-syndicate {
   /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003328}}
 #block-poll-recent {
   /* "Most recent poll" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003331}}
 #block-profile-author-information {
   /* "Author information" block for the profile of the page's author */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003334}}
 #block-search-form {
   /* "Search form" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003337}}
 #block-shortcut-shortcuts {
   /* "Shortcuts" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003340}}
 #block-statistics-popular {
   /* "Popular content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003343}}
 #block-system-main-menu {
   /* "Main menu" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003346}}
 #block-system-management {
   /* "Management" block for Drupal management menu */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003349}}
 #block-system-navigation {
   /* "Navigation" block for Drupal navigation menu */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003350}}
 #block-system-navigation ul {
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003355}}
 #block-system-user-menu {
   /* "User menu" block for Drupal user menu */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003358}}
 #block-system-help {
   /* "System help" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003361}}
 #block-system-main {
   /* "Main page content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003364}}
 #block-system-powered-by {
   /* "Powered by Drupal" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003367}}
 #block-user-login {
   /* "User login form" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003370}}
 #block-user-new {
   /* "Who's new" block for a list of the newest users */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003373}}
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }
@@ -442,11 +442,11 @@
 /*
  * Social Media block
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003380}}
 #block-widgets-s-socialmedia-share-default {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/blocks\.scss}line{font-family:\00003383}}
 #block-widgets-s-socialmedia-share-default .widgets-element img {
   width: 85%;
 }

@@ -23,18 +23,16 @@
 
   h2.block-title { /* Block title */
     border-bottom: 2px solid #419845;
+    font-family: 'Ropa Sans';
   }
 }
 
 .front h2.block-title {
     border-bottom: 1px solid #ccc;
-    font-size: 125%;
     font-weight: normal;
     padding: 0.5em 0 0.9em;
     margin-bottom: 0.9em;
 }
-
-
 
 /**
  * @Islandora Blocks
@@ -279,7 +277,7 @@
   h2 {
     font-size: 120%;
     padding: 0 15px;
-    font-family: 'News Cycle' !important;
+    font-family: 'Ropa Sans' !important;
   }
   p {
     font-size: 80%;

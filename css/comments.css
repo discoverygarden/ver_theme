@@ -1,536 +1,119 @@
 /**
  * @file
- * Positioning for responsive layout .
- *
- * Define CSS classes to create a table-free, 3-column, 2-column, or single
- * column layout depending on whether blocks are enabled in the left or right
- * columns.
- *
- * This layout uses the Zen Grids plugin for Compass: http://zengrids.com
+ * Comment Styling
  */
-/*
- * Center the page.
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000348}}
-#page,
-.region-bottom {
-  /* For screen sizes larger than 1200px, prevent excessively long lines of text
-     by setting a max-width. */
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\000039}}
+.comments {
+  /* Wrapper for the list of comments and its title */
+  margin: 1.5em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000312}}
+.comments h2.title {
+  /* Heading for the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000315}}
+.comments h2.comment-form {
+  /* Heading for the comment form */
 }
 
-/*
- * Apply the shared properties of grid items in a single, efficient ruleset.
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000366}}
-#header,
-#content,
-#navigation,
-.region-sidebar-first,
-.region-sidebar-second,
-#footer {
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000319}}
+.comment {
+  /* Wrapper for a single comment */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000321}}
+.comment.comment-preview {
+  /* Preview of the comment before submitting new or updated comment */
+  background-color: #ffffea;
+  /* Drupal core will use a #ffffea background. See #1110842 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000325}}
+.comment.new {
+  /* A new comment since the user last viewed the page. */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000328}}
+.comment.first {
+  /* The first comment in the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000331}}
+.comment.last {
+  /* The last comment in the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000334}}
+.comment.odd {
+  /* An odd-numbered comment in the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000337}}
+.comment.even {
+  /* An even-numbered comment in the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000340}}
+.comment.comment-by-anonymous {
+  /* A comment created by an anonymous user */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000343}}
+.comment.comment-by-node-author {
+  /* A comment created by the node's author */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000346}}
+.comment.comment-by-viewer {
+  /* A comment created by the current user */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000349}}
+.comment h3.comment-title {
+  /* Comment title */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000352}}
+.comment .new {
+  /* "New" marker for comments that are new for the current user */
+  color: #c00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000356}}
+.comment .user-picture {
+  /* The picture of the comment author */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000359}}
+.comment .submitted {
+  /* The "posted by" information */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000362}}
+.comment .permalink {
+  /* Comment's permalink wrapper */
+  text-transform: uppercase;
+  font-size: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000367}}
+.comment .user-signature {
+  /* The user's signature */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000370}}
+.comment ul.links {
+  /* Comment links. See also the ul.links declaration in the pages.css. */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000374}}
+.indented {
+  /* Nested comments are indented */
+  margin-left: 30px;
+  /* Drupal core uses a 25px left margin */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000378}}
+.comment-unpublished {
+  /* Unpublished comments */
+  /* background-color: #fff4f4; */
+  /* Drupal core uses a #fff4f4 background */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/comments\.scss}line{font-family:\0000381}}
+.comment-unpublished p.unpublished {
+  /* The word "Unpublished" displayed underneath the content. */
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
   word-wrap: break-word;
-}
-
-/*
- * Containers for grid items and flow items.
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
-#header:before, #header:after,
-#main:before,
-#main:after,
-#footer:before,
-#footer:after {
-  content: "";
-  display: table;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
-#header:after,
-#main:after,
-#footer:after {
-  clear: both;
-}
-
-/*
- * Navigation bar
- */
-@media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000385}}
-  #main {
-    padding-top: 1.1em;
-    /* Move all the children of #main down to make room. */
-    position: relative;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000389}}
-  #navigation {
-    position: absolute;
-    top: 0;
-    /* Move the navbar up inside #main's padding. */
-    height: 1em;
-    width: 100%;
-  }
-}
-@media all and (min-width: 480px) and (max-width: 959px) {
-  /*
-   * Use 3 grid columns for smaller screens.
-   */
-  /*
-   * The layout when there is only one sidebar, the left one.
-   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003108}}
-  .sidebar-first #content {
-    /* Span 2 columns, starting in 2nd column from left. */
-    float: left;
-    width: 66.66667%;
-    margin-left: 33.33333%;
-    margin-right: -100%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003112}}
-  .sidebar-first .region-sidebar-first {
-    /* Span 1 column, starting in 1st column from left. */
-    float: left;
-    width: 33.33333%;
-    margin-left: 0%;
-    margin-right: -33.33333%;
-  }
-
-  /*
-   * The layout when there is only one sidebar, the right one.
-   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003122}}
-  .sidebar-second #content {
-    /* Span 2 columns, starting in 1st column from left. */
-    float: left;
-    width: 66.66667%;
-    margin-left: 0%;
-    margin-right: -66.66667%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003126}}
-  .sidebar-second .region-sidebar-second {
-    /* Span 1 column, starting in 3rd column from left. */
-    float: left;
-    width: 33.33333%;
-    margin-left: 66.66667%;
-    margin-right: -100%;
-  }
-
-  /*
-   * The layout when there are two sidebars.
-   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003136}}
-  .two-sidebars #content {
-    /* Span 2 columns, starting in 2nd column from left. */
-    float: left;
-    width: 66.66667%;
-    margin-left: 33.33333%;
-    margin-right: -100%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003140}}
-  .two-sidebars .region-sidebar-first {
-    /* Span 1 column, starting in 1st column from left. */
-    float: left;
-    width: 33.33333%;
-    margin-left: 0%;
-    margin-right: -33.33333%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003144}}
-  .two-sidebars .region-sidebar-second {
-    /* Start a new row and span all 3 columns. */
-    float: left;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: -100%;
-    padding-left: 0;
-    padding-right: 0;
-    clear: left;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003149}}
-  .two-sidebars .region-sidebar-second .block {
-    padding-left: 10px;
-    padding-right: 10px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    word-wrap: break-word;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003152}}
-  .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
-    /* Span 1 column, starting in the 1st column from left. */
-    float: left;
-    width: 33.33333%;
-    margin-left: 0%;
-    margin-right: -33.33333%;
-    clear: left;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003156}}
-  .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
-    /* Span 1 column, starting in the 2nd column from left. */
-    float: left;
-    width: 33.33333%;
-    margin-left: 33.33333%;
-    margin-right: -66.66667%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003159}}
-  .two-sidebars .region-sidebar-second .block:nth-child(3n) {
-    /* Span 1 column, starting in the 3rd column from left. */
-    float: left;
-    width: 33.33333%;
-    margin-left: 66.66667%;
-    margin-right: -100%;
-  }
-}
-@media all and (min-width: 960px) {
-  /*
-   * Use 5 grid columns for larger screens.
-   */
-  /*
-   * The layout when there is only one sidebar, the left one.
-   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003177}}
-  .sidebar-first #content {
-    /* Span 4 columns, starting in 2nd column from left. */
-    float: left;
-    width: 80%;
-    margin-left: 20%;
-    margin-right: -100%;
-    margin-left: 22%;
-    width: 78%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003183}}
-  .sidebar-first .region-sidebar-first {
-    /* Span 1 column, starting in 1st column from left. */
-    float: left;
-    width: 20%;
-    margin-left: 0%;
-    margin-right: -20%;
-    margin-right: -21%;
-    width: 21%;
-  }
-
-  /*
-   * The layout when there is only one sidebar, the right one.
-   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003195}}
-  .sidebar-second #content {
-    /* Span 4 columns, starting in 1st column from left. */
-    float: left;
-    width: 80%;
-    margin-left: 0%;
-    margin-right: -80%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003199}}
-  .sidebar-second .region-sidebar-second {
-    /* Span 1 column, starting in 5th column from left. */
-    float: left;
-    width: 20%;
-    margin-left: 80%;
-    margin-right: -100%;
-  }
-
-  /*
-   * The layout when there are two sidebars.
-   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003209}}
-  .two-sidebars #content {
-    /* Span 3 columns, starting in 2nd column from left. */
-    float: left;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: -80%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003213}}
-  .two-sidebars .region-sidebar-first {
-    /* Span 1 column, starting in 1st column from left. */
-    float: left;
-    width: 20%;
-    margin-left: 0%;
-    margin-right: -20%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003217}}
-  .two-sidebars .region-sidebar-second {
-    /* Span 1 column, starting in 5th column from left. */
-    float: left;
-    width: 20%;
-    margin-left: 80%;
-    margin-right: -100%;
-  }
-}
-@media all and (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003224}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
-    width: 30%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003227}}
-  #block-views-frontpage-solr-boxes-block-1 {
-    width: 98.2%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003230}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1, .front #block-block-4 {
-    width: 60%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003234}}
-  .view-frontpage-solr-boxes .views-responsive-grid .views-row {
-    padding: 20px 10px;
-    margin-right: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003239}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 65.3%;
-  }
-}
-@media all and (min-width: 1024px) and (max-width: 1199px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003245}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
-    width: 29.55%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003248}}
-  #block-views-frontpage-solr-boxes-block-1 {
-    width: 98%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003251}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
-    width: 33%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003255}}
-  .view-frontpage-solr-boxes .views-responsive-grid .views-row {
-    padding: 20px 10px;
-    margin-right: 1em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003260}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 61.5%;
-    margin-left: 1.5%;
-  }
-}
-@media all and (min-width: 960px) and (max-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003267}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
-    width: 29.35%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003270}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block, .front #block-block-1 {
-    width: 33%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003273}}
-  #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.6%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003276}}
-  #block-menu-menu-header-menu {
-    float: none !important;
-    line-height: 2em !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003280}}
-  #header {
-    margin-top: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003283}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 61.5%;
-    margin-left: 1.5%;
-  }
-}
-@media all and (min-width: 800px) and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003290}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
-    width: 28.66%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003293}}
-  #block-views-frontpage-solr-boxes-block-1 {
-    width: 97.5%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003296}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
-    float: left !important;
-    width: 50%;
-    max-width: 46% !important;
-    margin-right: 10px;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003302}}
-  .front #block-block-1 {
-    display: none;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003305}}
-  #block-views-image-blocks-block {
-    margin-right: 0 !important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003307}}
-  #block-views-image-blocks-block img {
-    display: block;
-    margin: 0 auto;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003312}}
-  #block-menu-menu-header-menu {
-    float: none !important;
-    line-height: 2em !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003316}}
-  #header {
-    margin-top: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003319}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 97.5%;
-    margin-left: 1%;
-  }
-}
-@media all and (min-width: 640px) and (max-width: 799px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003326}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
-    width: 27.6%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003329}}
-  #block-views-frontpage-solr-boxes-block {
-    width: 97%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003332}}
-  #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row {
-    padding: 20px 10px;
-    margin-right: 2em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003336}}
-  #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-last {
-    display: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003339}}
-  #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-3 {
-    display: none;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003344}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
-    float: left !important;
-    width: 50%;
-    max-width: 46% !important;
-    margin-right: 10px;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003350}}
-  .front #block-block-1 {
-    display: none;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003353}}
-  #block-views-image-blocks-block {
-    margin-right: 0 !important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003355}}
-  #block-views-image-blocks-block img {
-    display: block;
-    margin: 0 auto;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003360}}
-  #block-menu-menu-header-menu {
-    float: none !important;
-    line-height: 2em !important;
-    top: 5px;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003365}}
-  #header {
-    margin-top: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003368}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 97.5%;
-    margin-left: 1%;
-  }
-}
-@media all and (min-width: 320px) and (max-width: 639px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003375}}
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1 {
-    width: 95%;
-    margin-bottom: 1em !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003379}}
-  #block-views-frontpage-solr-boxes-block {
-    width: 96%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003382}}
-  #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row {
-    padding: 20px 10px;
-    margin-right: 2em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003386}}
-  #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-last {
-    display: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003389}}
-  #block-views-frontpage-solr-boxes-block .view-frontpage-solr-boxes .views-responsive-grid .views-row-3 {
-    display: none;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003394}}
-  .front #block-islandora-solr-simple, .front #block-views-image-blocks-block {
-    float: left !important;
-    width: 96%;
-    max-width: 100% !important;
-    margin-right: 10px;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003400}}
-  .front #block-block-1 {
-    display: none;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003403}}
-  #block-views-image-blocks-block {
-    margin-right: 0 !important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003405}}
-  #block-views-image-blocks-block img {
-    display: block;
-    margin: 0 auto;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003410}}
-  #block-menu-menu-header-menu {
-    float: none !important;
-    line-height: 2em !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003414}}
-  #header {
-    margin-top: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003417}}
-  #block-accordion-rotator-accordion-rotator {
-    width: 97.5%;
-    margin-left: 1%;
-  }
 }
