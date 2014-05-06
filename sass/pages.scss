@@ -9,26 +9,6 @@
 
 @import "base";
 
-/*
- * Body
- */
-
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background: #DAD8D8;
-  background: image-url('bg.png') repeat scroll 0 0 #222222;
-  font-family: 'ProximaNova';
-  font-weight: normal;
-  min-height: 100%;
-    border-left: 10px solid #5a5b5d;
-    border-right: 10px solid #5a5b5d;  
-}
-
 #page {
   background: #E2E2E2;
 }
@@ -57,10 +37,10 @@ body {
   }
 }
 
-
 /*
  * Searching
  */
+
 .islandora-solr-search-result {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -87,10 +67,19 @@ dl.solr-thumb {
   margin: 2% 0 2% 1%;
 }
 
-
 /*
  * Header
  */
+
+/*Accordion Rotator */
+
+div.accordion_button.next {
+  margin-right: 5px;
+}
+div.accordion_button.previous {
+  margin-left: 5px;
+}
+
 
 #header {
 }

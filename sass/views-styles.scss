@@ -5,7 +5,6 @@
 
 @import "base";
 
-
 /*
  * Views' admin tabs
  *
@@ -42,48 +41,6 @@
       @include border-radius(0 0 7px 7px);
     }
   }
-}
-
-/*
- * Slideshow
-*/
-
-#block-views-slideshow-block {
-  height: 300px;
-}
-
-
-.col-left {
-  clear: left;
-  float: left;
-  height: auto;
-  width: 300px;
-}
-
-.col-right {
-  position: absolute;
-  right: 0;
-}
-
-.views-slideshow-cycle-main-frame-row {
-  width: 100%;
-}
-
-.views-view-grid {
-  width: 100%;
-
-  td {
-    width: 25%;
-  }
-  a {
-    color: #3D8396;
-  }
-  a:hover {
-    color: #888;
-  }
-}
-
-.view-image-blocks {
 }
 
 #block-views-frontpage-solr-boxes-block .views-field-dctitle {
