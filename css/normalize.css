@@ -219,10 +219,10 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/normalize\.scss}line{font-family:\00003235}}
 h2 {
-  font-size: 1.5em;
-  line-height: 2em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-size: 1.6em;
+  line-height: 1.875em;
+  margin-top: 0.9375em;
+  margin-bottom: 0.9375em;
   line-height: 1.3em;
 }
 
