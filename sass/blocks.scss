@@ -269,14 +269,22 @@
   h2 {
     font-size: 120%;
     padding: 0 15px;
-    font-family: 'Ropa Sans' !important;
+    font-weight: normal;
+    margin: 0;
   }
   p {
     font-size: 80%;
-    font-weight: normal;
     padding: 0 15px;
     font-family: arial, helvetica, verdana, sans-serif  !important;
     margin: 0;
+    font-weight: normal;
+  }
+  .acc_content {
+    background: none;
+  }
+  .box {
+    height: 75px;
+    padding-top: 15px;
   }
 }
 
