@@ -417,8 +417,8 @@
 
   /* line 335, ../../sass/layouts/responsive-sidebars.scss */
   .region-sub-header {
-    margin: 0 !important;
     height: 1.5em !important;
+    margin: 0 !important;
   }
 }
 @media all and (min-width: 1200px) {
