@@ -4,53 +4,53 @@
  *
  * Style anything that isn't in the $content variable.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000310}}
+/* line 10, ../sass/nodes.scss */
 .node {
   /* Node wrapper */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000312}}
+/* line 12, ../sass/nodes.scss */
 .preview .node {
   /* Preview of the content before submitting new or updated content */
   /* background-color: #ffffea; */
   /* Drupal core uses a #ffffea background */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000316}}
+/* line 16, ../sass/nodes.scss */
 .node .node-title {
   /* Node title */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000319}}
+/* line 19, ../sass/nodes.scss */
 .node .user-picture {
   /* The picture of the node author */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000322}}
+/* line 22, ../sass/nodes.scss */
 .node .submitted {
   /* The "posted by" information */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000325}}
+/* line 25, ../sass/nodes.scss */
 .node .content {
   /* Node's content wrapper */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000328}}
+/* line 28, ../sass/nodes.scss */
 .node ul.links {
   /* Node links. See also the ul.links declaration in the pages.css. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000333}}
+/* line 33, ../sass/nodes.scss */
 .node-promoted {
   /* A node that has been promoted to the front page */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000336}}
+/* line 36, ../sass/nodes.scss */
 .node-sticky {
   /* A sticky node (displayed before others in a list) */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000339}}
+/* line 39, ../sass/nodes.scss */
 .node-by-viewer {
   /* A node created by the current user */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000342}}
+/* line 42, ../sass/nodes.scss */
 .node-teaser {
   /* A node displayed as teaser */
 }
@@ -60,23 +60,23 @@
  * it is. If you create a new content type called "my-custom-type", it will
  * receive a "node-my-custom-type" class.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000351}}
+/* line 51, ../sass/nodes.scss */
 .node-page {
   /* Page content node */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000354}}
+/* line 54, ../sass/nodes.scss */
 .node-article {
   /* Article content node */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000357}}
+/* line 57, ../sass/nodes.scss */
 .node-unpublished {
   /* Unpublished nodes */
   /* background-color: #fff4f4; */
   /* Drupal core uses a #fff4f4 background */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/nodes\.scss}line{font-family:\0000360}}
+/* line 60, ../sass/nodes.scss */
 .node-unpublished p.unpublished {
   /* The word "Unpublished" displayed underneath the content. */
   height: 0;

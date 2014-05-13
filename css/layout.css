@@ -1,5 +1,5 @@
 @media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000317}}
+  /* line 17, ../sass/layout.scss */
   #skip-link a {
     position: absolute !important;
     height: 1px;
@@ -7,7 +7,7 @@
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000328}}
+  /* line 28, ../sass/layout.scss */
   #skip-link a:active, #skip-link a:focus {
     position: static !important;
     clip: auto;
@@ -16,7 +16,7 @@
     overflow: auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000340}}
+/* line 40, ../sass/layout.scss */
 #header,
 #main,
 #footer {
@@ -25,17 +25,17 @@
   max-width: 1100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
+/* line 52, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #main:before, #main:after {
   content: "";
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
+/* line 56, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #main:after {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000352}}
+/* line 52, ../sass/layout.scss */
 #content aside {
   font-weight: bold;
   font-style: italic;
@@ -57,12 +57,12 @@
 }
 
 @media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000370}}
+  /* line 70, ../sass/layout.scss */
   #main {
     padding-top: 4em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000373}}
+  /* line 73, ../sass/layout.scss */
   #main-menu {
     float: left;
     width: 100%;
@@ -80,7 +80,7 @@
   }
 }
 @media all and (min-width: 480px) and (max-width: 639px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000383}}
+  /* line 83, ../sass/layout.scss */
   #content {
     float: left;
     width: 100%;
@@ -95,7 +95,7 @@
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000386}}
+  /* line 86, ../sass/layout.scss */
   #aside1 {
     clear: left;
     float: left;
@@ -111,7 +111,7 @@
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000390}}
+  /* line 90, ../sass/layout.scss */
   #aside2 {
     float: left;
     width: 50%;
@@ -127,7 +127,7 @@
   }
 }
 @media all and (min-width: 640px) and (max-width: 799px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\0000398}}
+  /* line 98, ../sass/layout.scss */
   #content {
     float: left;
     width: 66.66667%;
@@ -142,7 +142,7 @@
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\00003101}}
+  /* line 101, ../sass/layout.scss */
   #aside1 {
     float: right;
     width: 33.33333%;
@@ -157,7 +157,7 @@
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\00003104}}
+  /* line 104, ../sass/layout.scss */
   #aside2 {
     clear: left;
     float: left;
@@ -174,7 +174,7 @@
   }
 }
 @media all and (min-width: 800px) and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\00003113}}
+  /* line 113, ../sass/layout.scss */
   #content {
     float: left;
     width: 66.66667%;
@@ -189,7 +189,7 @@
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\00003116}}
+  /* line 116, ../sass/layout.scss */
   #aside1 {
     float: right;
     width: 33.33333%;
@@ -204,7 +204,7 @@
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\00003119}}
+  /* line 119, ../sass/layout.scss */
   #aside2 {
     clear: right;
     float: right;
@@ -221,7 +221,7 @@
   }
 }
 @media all and (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\00003128}}
+  /* line 128, ../sass/layout.scss */
   #content {
     float: left;
     width: 60%;
@@ -236,7 +236,7 @@
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\00003131}}
+  /* line 131, ../sass/layout.scss */
   #aside1 {
     float: left;
     width: 20%;
@@ -251,7 +251,7 @@
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layout\.scss}line{font-family:\00003134}}
+  /* line 134, ../sass/layout.scss */
   #aside2 {
     float: left;
     width: 20%;

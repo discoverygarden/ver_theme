@@ -1,8 +1,8 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/common\.scss}line{font-family:\000037}}
+/* line 7, ../sass/common.scss */
 #skip-link {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/common\.scss}line{font-family:\0000311}}
+/* line 11, ../sass/common.scss */
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -13,7 +13,7 @@
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/common\.scss}line{font-family:\0000327}}
+/* line 27, ../sass/common.scss */
 #header,
 #content,
 #main-menu,
@@ -27,27 +27,27 @@
   padding: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/common\.scss}line{font-family:\0000338}}
+/* line 38, ../sass/common.scss */
 #header,
 #main-menu,
 #aside2 {
   border: 1px solid #ccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/common\.scss}line{font-family:\0000343}}
+/* line 43, ../sass/common.scss */
 #content,
 #aside1,
 #footer {
   border: 1px solid #09f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/common\.scss}line{font-family:\0000349}}
+/* line 49, ../sass/common.scss */
 header h1,
 header h2 {
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/common\.scss}line{font-family:\0000352}}
+/* line 52, ../sass/common.scss */
 header p {
   display: inline;
   text-transform: uppercase;
