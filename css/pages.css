@@ -372,13 +372,36 @@ ul.pager li.pager-current {
   padding: 0 1em;
 }
 
+/* Download button for Book Solution Pack */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003307}}
+a.dwn_btn {
+  background-color: #DEDEDE;
+  border: 1px solid #BBB;
+  border-radius: 4px;
+  color: #333333;
+  letter-spacing: 1px;
+  padding: 0.5em 1em;
+  text-align: center;
+  transition: background-color 0.3s ease 0s;
+  margin: 1.5em 0;
+  display: block;
+  width: 7em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003320}}
+a.dwn_btn:hover {
+  background-color: #E9E9E9;
+  border: 1px solid #F2F2F2;
+  color: #121738;
+}
+
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
  *
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003333}}
 .region-sidebar-first {
   font-size: 80%;
 }
@@ -392,7 +415,7 @@ ul.pager li.pager-current {
 /*
  * Footer
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003351}}
 #footer {
   margin-top: 1.8em;
 }
@@ -400,7 +423,7 @@ ul.pager li.pager-current {
 /*
  * Page bottom
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003359}}
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }

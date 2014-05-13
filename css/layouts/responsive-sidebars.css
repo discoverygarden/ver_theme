@@ -417,8 +417,8 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/ir7\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003335}}
   .region-sub-header {
-    margin: 0 !important;
     height: 1.5em !important;
+    margin: 0 !important;
   }
 }
 @media all and (min-width: 1200px) {
