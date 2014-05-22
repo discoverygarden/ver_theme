@@ -5,7 +5,6 @@
 
 @import "base";
 
-
 .block { /* Block wrapper */
   margin-bottom: 1.1em;
 
@@ -179,6 +178,10 @@
 
 .islandora-solr-display a.display-table {
   background: url("../images/display-list.png") no-repeat scroll left top transparent;
+}
+
+#block-islandora-bookmark-islandora-bookmark {
+  clear: left;
 }
 
 /**
