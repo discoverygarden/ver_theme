@@ -202,7 +202,7 @@
 }
 
 /* line 187, ../sass/blocks.scss */
-#islandora-bookmark-overview-form .tableheader-processed {
+#islandora-bookmark-overview-form table, #islandora-bookmark-detailed-overview table {
   width: 100%;
 }
 
