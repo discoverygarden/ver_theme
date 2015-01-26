@@ -225,6 +225,24 @@ function ir7_preprocess_block(&$variables, $hook) {
 }
 // */
 
+// function ir7_views_view__owl_carousel_view(&$vars) {
+//    dsm($vars, "theme hook suggestion");
+// }
+
+// function ir7_preprocess_views_view(&$vars) {
+//   if (isset($vars['view']->name)) {
+//     dsm($vars['view']->name, "view name");
+//     $function = 'ir7_preprocess_views_view__'.$vars['view']->name;
+//     if (function_exists($function)) {
+//       $function($vars);
+//     }
+//   }
+// }
+
+// function ir7_preprocess_views_view__owl_carousel_view(&$vars) {
+//   dsm($vars, "owl car vars");
+// }
+
 function ir7_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
   $link = array(
     '#markup' => l(t("Advanced Search"), "advanced-search", array('attributes' => array('class' => array('adv_search')))),

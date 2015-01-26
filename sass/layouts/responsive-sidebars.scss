@@ -226,8 +226,11 @@ $zen-auto-include-item-base: false;
   #block-views-frontpage-solr-boxes-block-1 {
     width: 95.9% !important;
   }
+  #block-views-owl-carousel-view-block {
+    width: 100% !important;
+  }
   #block-islandora-solr-simple, .image-block-front, .welcome {
-    width: 64%;
+    width: 95.9%;
     float: left !important;
     max-width: 100% !important;
     height: 100px !important;
