@@ -226,15 +226,8 @@ $zen-auto-include-item-base: false;
   #block-views-frontpage-solr-boxes-block-1 {
     width: 95.9% !important;
   }
-  #block-views-owl-carousel-view-block {
-    width: 100% !important;
-  }
-  .submit-collection {
-    margin-bottom: 10px !important;
-    max-width: 97.5% !important;
-  }
   #block-islandora-solr-simple, .image-block-front, .welcome {
-    width: 95.9%;
+    width: 64%;
     float: left !important;
     max-width: 100% !important;
     height: 100px !important;
@@ -248,8 +241,7 @@ $zen-auto-include-item-base: false;
   .submit-collection, .submit-collection-anon {
     font-size: 110% !important;
     line-height: 6.1em !important;
-    width: 100%;
-    max-width: 100%;
+    width: 29.5%;
     height: 100px !important;
     a {
       margin-left: 1em !important;
