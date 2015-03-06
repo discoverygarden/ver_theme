@@ -39,6 +39,122 @@
 }
 
 /*
+ * View Slideshow
+ */
+
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left;
+}
+
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  text-align: center;
+  display: table !important;
+}
+
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: auto;
+  height:auto;
+}
+
+.views_slideshow_cycle_main .field-content img {
+  max-width: 13em;
+  max-height: 12em;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  min-height: 12em;
+  padding: 0;
+  box-shadow:  0px 0px 1px 1px rgba(38, 37, 38, 0.3);
+  -webkit-box-shadow:  0px 0px 1px 1px rgba(38, 37, 38, 0.5);
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.views-slideshow-cycle-main-frame-row-item{
+  display: table-cell;
+  height: auto;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+}
+
+.slideshow-item-wrapper {
+  max-width: 15em !important;
+  text-align: center;
+  min-height: 100% !important;
+  display: inline-block;
+}
+
+/*
+ * The text here is the issue with size, need to fix it from the span
+ */
+.slideshow-item-text-wrapper{
+
+}
+
+.views-slideshow-controls-text-previous {
+  left: 0;
+  position: absolute;
+  top: 10%;
+  z-index: 100;
+  a {
+    background:url(../images/icon/verm_page_left.png) left center no-repeat;
+    height:66px;
+    width:33px;
+    display:inline-block;    
+    text-decoration: none;
+    vertical-align:text-center;
+    line-height: 0; 
+    font-size: 0;
+    color: transparent;
+  }
+}
+
+.views-slideshow-controls-text-next {
+  right: 0;
+  position: absolute;
+  top: 10%;
+  z-index: 100;
+  a {
+    background:url(../images/icon/verm_page_right.png) left center no-repeat;
+    height:66px;
+    width:33px;
+    display:inline-block;    
+    text-decoration: none;
+    vertical-align:text-center;
+    line-height: 0; 
+    font-size: 0;
+    color: transparent;
+  }
+}
+.islandora-inline-metadata dt {
+  word-wrap: break-word;
+}
+
+.front-page-slideshow > div.view {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.views_slideshow_controls_text_pause {
+  
+}
+
+.views-slideshow-controls-bottom{
+  text-align: center;
+}
+
+
+/*
  * Searching
  */
 
@@ -83,7 +199,11 @@ div.accordion_button.previous {
 
 
 #header {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
 }
+
 .logged-in.not-front #header {
   padding-top: 1.25em;
 }
@@ -92,6 +212,8 @@ div.accordion_button.previous {
   float: left; /* LTR */
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
 
   img {
     vertical-align: bottom;
@@ -101,7 +223,8 @@ div.accordion_button.previous {
 #name-and-slogan { /* Wrapper for website name and slogan */
   float: left;
   margin-left: 2%;
-  margin-top: -0.2em;
+  margin-top: 2.5em;
+  font-size: 1em;
 }
 
 #site-name { /* The name of the website */
@@ -109,7 +232,7 @@ div.accordion_button.previous {
   font-size: 1.5em;
   line-height: 1.5em;
   font-weight: normal;
-  color: #5A5B5D;
+  color: white;
   a:link,
   a:visited {
     color: #5A5B5D;
@@ -124,13 +247,15 @@ div.accordion_button.previous {
 
 #site-slogan { /* The slogan (or tagline) of a website */
   margin: 0;
+  color: white;
   font-size: 1em;
-  color: #A14243;
+  font-size: 2.5em;
   font-weight: normal;
+  padding-top: 1em;
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
-  clear: both; /* Clear the logo */
+  clear: right; /* Clear the logo */
 }
 
 /*
@@ -333,6 +458,7 @@ ul.pager li.pager-current {
 
 #footer {
   margin-top: 1.8em;
+  box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.3);
 }
 
 /*

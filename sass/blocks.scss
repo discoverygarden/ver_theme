@@ -38,17 +38,70 @@
  *
 **/
 
+#block-menu-menu-footer-menu {
+  margin-bottom: 0em;
+}
+
 #block-islandora-solr-simple, .image-block-front,
-.submit-collection-anon, .submit-collection, .welcome {
+.submit-collection-anon, .submit-collection, .welcome, .front-page-left, .front-page-right, .slideshow-item-wrapper{
   background: #fff;
   float: right;
   position: relative;
   z-index: 100;
-  height: 140px;
+  min-height: 140px;
+  height: auto;
   max-width: 360px;
   padding: 10px;
   box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.3);
-    -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5);
+  -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5);
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.slideshow-item-wrapper {
+  float: none;
+}
+
+.front-page-left{
+  float: left;
+  max-width: 49.5%;
+  min-width: 49.5%;
+}
+
+.front-page-right{
+  float: right;
+  max-width: 49.5%;
+  min-width: 49.5%;
+}
+
+#block-islandora-solr-simple {
+  width: 49.5%;
+  background: none;
+  box-shadow: none;
+}
+.view-front-page-browse .view-content {
+  display: table;
+  width: 100%;
+}
+
+.view-front-page-browse .view-content > div{
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+
+.browse-single-item-wrapper img {
+  max-width: 8em;
+}
+
+.browse-collections-block {
+  background: none;
+  box-shadow: none;
+  h2 {
+    border-bottom: none !important;
+  }
 }
 
 .welcome {

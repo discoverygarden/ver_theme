@@ -85,12 +85,45 @@ li a.active {
 }
 
 /* line 87, ../sass/navigation.scss */
+#block-menu-menu-footer-menu, #block-menu-menu-header-menu {
+  font-size: 75%;
+  float: left;
+}
+/* line 90, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu, #block-menu-menu-header-menu ul.menu {
+  list-style: none;
+  margin: 1em 0;
+}
+/* line 93, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu li, #block-menu-menu-header-menu ul.menu li {
+  border-right: 3px solid white;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 98, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu li a, #block-menu-menu-footer-menu ul.menu li a:visited, #block-menu-menu-header-menu ul.menu li a, #block-menu-menu-header-menu ul.menu li a:visited {
+  font-weight: bold;
+  font-size: 100%;
+  color: white;
+}
+/* line 103, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu li a:hover, #block-menu-menu-header-menu ul.menu li a:hover {
+  color: grey;
+}
+/* line 107, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu li:last-child, #block-menu-menu-header-menu ul.menu li:last-child {
+  border-right: none;
+}
+
+/* line 113, ../sass/navigation.scss */
 #block-menu-menu-header-menu {
   margin-bottom: 0;
   text-align: right;
   font-size: 85%;
-  line-height: 2.5em;
-  height: 30px;
+  line-height: 1em;
+  float: right;
+  height: auto;
   background-image: -ms-linear-gradient(top, #343334 0%, #5a5b5d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF343334', endColorstr='#FF5A5B5D');
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343334), color-stop(100%, #5a5b5d));
@@ -99,46 +132,24 @@ li a.active {
   background-image: -o-linear-gradient(top, #343334 0%, #5a5b5d 100%);
   background-image: linear-gradient(top, #343334 0%, #5a5b5d 100%);
 }
-/* line 96, ../sass/navigation.scss */
+/* line 123, ../sass/navigation.scss */
 #block-menu-menu-header-menu ul {
-  margin: 1em 0.8em;
+  margin: 1em 0em;
   padding-left: 15px;
 }
-/* line 99, ../sass/navigation.scss */
+/* line 126, ../sass/navigation.scss */
 #block-menu-menu-header-menu ul li {
+  padding-left: 0px;
   display: inline-block;
-  margin: 0 0.8em;
+  margin: 0 0em;
+  margin-left: 0px;
 }
-/* line 103, ../sass/navigation.scss */
+/* line 132, ../sass/navigation.scss */
 #block-menu-menu-header-menu ul li.first {
   margin-left: 0;
 }
 
-/* line 109, ../sass/navigation.scss */
-#block-menu-menu-footer-menu {
-  font-size: 75%;
-  float: left;
-}
-/* line 112, ../sass/navigation.scss */
-#block-menu-menu-footer-menu ul {
-  list-style: none;
-  margin: 1em 0;
-}
-/* line 115, ../sass/navigation.scss */
-#block-menu-menu-footer-menu ul li {
-  display: inline-block;
-  margin-right: 1em;
-}
-/* line 118, ../sass/navigation.scss */
-#block-menu-menu-footer-menu ul li a, #block-menu-menu-footer-menu ul li a:visited {
-  color: #424143;
-}
-/* line 121, ../sass/navigation.scss */
-#block-menu-menu-footer-menu ul li a:hover {
-  color: #419845;
-}
-
-/* line 129, ../sass/navigation.scss */
+/* line 138, ../sass/navigation.scss */
 .footer-logo {
   float: left;
 }
@@ -146,7 +157,7 @@ li a.active {
 /*
   *
   */
-/* line 136, ../sass/navigation.scss */
+/* line 145, ../sass/navigation.scss */
 .sidebar {
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
   padding: 2em 1.5em;
