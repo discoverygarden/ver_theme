@@ -41,118 +41,17 @@
 /*
  * View Slideshow
  */
-
-.views_slideshow_cycle_main {
-  width: 100%;
-  float: left;
+.flex-direction-nav a {
+  line-height: 40px;
 }
-
-.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
-  width: 100% !important;
-  height: auto;
-}
-
-.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
-  width: 100% !important;
-  text-align: center;
-  display: table !important;
-}
-
-.views_slideshow_cycle_main .field-content {
-  max-width: 100%;
-  width: auto;
-  height:auto;
-}
-
-.views_slideshow_cycle_main .field-content img {
-  max-width: 13em;
-  max-height: 12em;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  min-height: 12em;
-  padding: 0;
-  box-shadow:  0px 0px 1px 1px rgba(38, 37, 38, 0.3);
-  -webkit-box-shadow:  0px 0px 1px 1px rgba(38, 37, 38, 0.5);
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
-}
-
-.views-slideshow-cycle-main-frame-row-item{
-  display: table-cell;
-  height: auto;
-  padding-bottom: 0.5%;
-  padding-top: 0.5%;
-}
-
-.slideshow-item-wrapper {
-  max-width: 15em !important;
-  text-align: center;
-  min-height: 100% !important;
-  display: inline-block;
-}
-
-/*
- * The text here is the issue with size, need to fix it from the span
- */
-.slideshow-item-text-wrapper{
-
-}
-
-.views-slideshow-controls-text-previous {
-  left: 0;
-  position: absolute;
-  top: 10%;
-  z-index: 100;
-  a {
-    background:url(../images/icon/verm_page_left.png) left center no-repeat;
-    height:66px;
-    width:33px;
-    display:inline-block;    
-    text-decoration: none;
-    vertical-align:text-center;
-    line-height: 0; 
-    font-size: 0;
-    color: transparent;
+.flex-viewport {
+  ul {
+    li {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
   }
 }
-
-.views-slideshow-controls-text-next {
-  right: 0;
-  position: absolute;
-  top: 10%;
-  z-index: 100;
-  a {
-    background:url(../images/icon/verm_page_right.png) left center no-repeat;
-    height:66px;
-    width:33px;
-    display:inline-block;    
-    text-decoration: none;
-    vertical-align:text-center;
-    line-height: 0; 
-    font-size: 0;
-    color: transparent;
-  }
-}
-.islandora-inline-metadata dt {
-  word-wrap: break-word;
-}
-
-.front-page-slideshow > div.view {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
-}
-
-.views_slideshow_controls_text_pause {
-  display: none;
-}
-
-.views-slideshow-controls-bottom{
-  text-align: center;
-}
-
 
 /*
  * Searching
