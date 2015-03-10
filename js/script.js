@@ -21,5 +21,23 @@ $(window).load(function() {
     function() {
       $(this).val("");
     });
+ 
+  var $window = $(window);
+  var flexslider = $('.flexslider').data('flexslider');
+
+ // store the slider in a local variable
+  var $window = $(window);
+
+  function getGridSize() {
+    return (window.innerWidth < 600) ? 2 :
+      (window.innerWidth < 900) ? 3 : 4;
+  }
+ // check grid size on resize event
+  $window.resize(function() {
+    var gridSize = getGridSize();
+   console.log(gridSize);
+    flexslider.vars.minItems = gridSize;
+    flexslider.vars.maxItems = gridSize;
+  });
 });
 })(jQuery, Drupal, this, this.document);
