@@ -54,6 +54,26 @@
   }
 }
 
+.flex-viewport img {
+    display: block;
+    height: 350px;
+}
+.flexslider-views-slideshow-main-frame li {
+    position: relative;
+}
+p.flex-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
 /*
  * Searching
  */
@@ -117,6 +137,7 @@ div.accordion_button.previous {
 
   img {
     vertical-align: bottom;
+    max-width: 10em;
   }
 }
 

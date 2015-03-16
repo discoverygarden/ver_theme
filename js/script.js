@@ -35,7 +35,6 @@ $(window).load(function() {
  // check grid size on resize event
   $window.resize(function() {
     var gridSize = getGridSize();
-   console.log(gridSize);
     flexslider.vars.minItems = gridSize;
     flexslider.vars.maxItems = gridSize;
   });
