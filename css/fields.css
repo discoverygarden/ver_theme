@@ -23,11 +23,16 @@
   /* Underscores in field name are replaced with dashes. */
 }
 
+/* line 26, ../sass/fields.scss */
+.solr-fields dt, .solr-fields dd {
+  word-wrap: break-word;
+}
+
 /*
  * If you don't use the Fences module, that's fine. Really. I think. Just use
  * these selectors instead:
  */
-/* line 32, ../sass/fields.scss */
+/* line 35, ../sass/fields.scss */
 .field {
   /* Wrapper for any field. */
 }
@@ -38,7 +43,7 @@
 /*
  * Field types (Contrib)
  */
-/* line 82, ../sass/fields.scss */
+/* line 85, ../sass/fields.scss */
 .field-type-datetime {
   /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
 }
@@ -46,7 +51,7 @@
 /*
  * Named fields
  */
-/* line 104, ../sass/fields.scss */
+/* line 107, ../sass/fields.scss */
 .field-name-field-FIELDNAME {
   /* Underscores in field name are replaced with dashes. */
 }
