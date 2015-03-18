@@ -23,6 +23,9 @@
 .field-FIELDNAME { /* Underscores in field name are replaced with dashes. */
 }
 
+.solr-fields dt, .solr-fields dd {
+  word-wrap: break-word;
+}
 
 /*
  * If you don't use the Fences module, that's fine. Really. I think. Just use
