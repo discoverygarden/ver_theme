@@ -71,10 +71,8 @@
 
 ?>
 <a name="top"></a>
-<div id="page">
   <?php print render($page['sub_header']); ?>
   <header id="header" role="banner">
-
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
     <?php endif; ?>
@@ -110,7 +108,7 @@
 
     <?php print render($page['header']); ?>
   </header>
-
+<div id="page">
   <div id="main">
 
     <?php print $breadcrumb; ?>
@@ -173,9 +171,6 @@
     <?php endif; ?>
 
   </div><!-- /#main -->
-
-  <?php print render($page['footer']); ?>
-
 </div><!-- /#page -->
-
+<?php print render($page['footer']); ?>
 <?php print render($page['bottom']); ?>
