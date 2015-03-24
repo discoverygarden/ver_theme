@@ -24,7 +24,7 @@ $(window).load(function() {
  
   var $window = $(window);
   var flexslider = $('.flexslider').data('flexslider');
-
+  console.log("hd");
  // store the slider in a local variable
   var $window = $(window);
 
@@ -34,9 +34,18 @@ $(window).load(function() {
   }
  // check grid size on resize event
   $window.resize(function() {
-    var gridSize = getGridSize();
-    flexslider.vars.minItems = gridSize;
-    flexslider.vars.maxItems = gridSize;
+    if (flexslider) {
+      var gridSize = getGridSize();
+      flexslider.vars.minItems = gridSize;
+      flexslider.vars.maxItems = gridSize;
+    }
+    update_header_position();
   });
+  function update_header_position() {
+    if ($('#admin-menu').length > 0) {
+      $('#header').css('margin-top', $('#admin-menu').height());
+    }
+  }
+  $(window).trigger('resize');
 });
 })(jQuery, Drupal, this, this.document);
