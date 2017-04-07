@@ -1,0 +1,18 @@
+/**
+ * @file
+ * Metdata Styling
+ */
+/* line 8, ../sass/collection-solr-description.scss */
+.panels-flexible-row {
+  margin: 1.5em;
+}
+/* line 12, ../sass/collection-solr-description.scss */
+.panels-flexible-row .truncation-toggle-processed span {
+  display: block;
+}
+/* line 15, ../sass/collection-solr-description.scss */
+.panels-flexible-row .truncation-toggle-processed span a {
+  display: block;
+  margin: 0.5rem auto;
+  text-align: left;
+}
