@@ -17,4 +17,3 @@ function ver_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form_s
 function ver_theme_view_islandora_solr_simple_alter(&$data, $block) {
   drupal_add_js(drupal_get_path('theme', 'ver_theme') . '/js/clean_simple_search.js');
 }
-
