@@ -61,6 +61,7 @@ stylesheets[all][] = css/islandora-preview.css
 stylesheets[all][] = css/collection-solr-metadata.css
 stylesheets[all][] = css/collection-solr-description.css
 stylesheets[all][] = css/islandora-object-grid-panels.css
+stylesheets[all][] = css/collection-search.css
 
 ; Set the conditional stylesheets that are processed by IE.
 stylesheets-conditional[IE 8][all][] = css/ie8.css

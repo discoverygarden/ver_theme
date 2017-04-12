@@ -1,0 +1,35 @@
+/**
+ * @file
+ * Collection Search Styling
+ */
+
+@import "base";
+
+.collection-search,
+%collection-search {
+  #islandora-collection-search-form {
+    .form-item,
+    .form-select,
+    .form-text {
+      width: 100%;
+      display: block;
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.pane-islandora-collection-search-islandora-collection-search {
+  @extend %collection-search;
+}
+
+#islandora-solr-advanced-terms {
+  .form-item {
+    margin: 0.5rem 0;
+    min-width: 40%;
+
+    .form-select,
+    .form-text {
+      width: 100%;
+    }
+  }
+}

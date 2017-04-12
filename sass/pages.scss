@@ -23,6 +23,12 @@
  * See the element-focusable rule in system.base.css.
  */
 
+.view-search-page-logo {
+  .field-content > img {
+    padding-top: 1.5em;
+  }
+}
+
 #skip-link {
   margin: 0;
 
