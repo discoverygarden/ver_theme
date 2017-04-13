@@ -24,3 +24,30 @@ function ver_theme_form_islandora_solr_advanced_search_form_alter(&$form, &$form
     }
   }
 }
+
+function ver_theme_preprocess_islandora_paged_tei_seadragon_viewer(&$variables) {
+  dsm($variables, "vars");
+}
+
+/**
+ * Theme function to create a clipper link.
+ */
+function ver_theme_islandora_openseadragon_clipper(&$variables) {
+  $image = theme(
+    'image',
+    array(
+      'path' => path_to_theme() . '/images/cut-content-button.png',
+    )
+  );
+  return l(
+    $image,
+    "islandora/object/{$variables['pid']}/print",
+    array(
+      'attributes' => array(
+        'title' => t('Clip Image'),
+        'id' => 'clip',
+      ),
+      'html' => TRUE,
+    )
+  );
+}
