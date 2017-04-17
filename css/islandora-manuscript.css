@@ -26,16 +26,21 @@
   vertical-align: middle;
 }
 /* line 26, ../sass/islandora-manuscript.scss */
+#manuscript-viewer #paged-tei-seadragon-viewer-tei-pane {
+  width: 100%;
+  max-width: 49%;
+}
+/* line 31, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .paged-tei-seadragon-viewer-right-toolbar {
   text-align: right;
   float: none;
   vertical-align: middle;
 }
-/* line 32, ../sass/islandora-manuscript.scss */
+/* line 37, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .left-toolbar {
   text-align: left;
 }
-/* line 35, ../sass/islandora-manuscript.scss */
+/* line 40, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .left-toolbar button {
   font-size: 0;
   text-indent: -9999px;
@@ -50,26 +55,26 @@
   -webkit-appearance: none;
   /* Safari and Chrome */
 }
-/* line 49, ../sass/islandora-manuscript.scss */
+/* line 54, ../sass/islandora-manuscript.scss */
 #manuscript-viewer a#clip {
   display: inline-block;
   margin-left: 5px;
   vertical-align: middle;
 }
-/* line 55, ../sass/islandora-manuscript.scss */
+/* line 60, ../sass/islandora-manuscript.scss */
 #manuscript-viewer #clip > img {
   padding-top: 5px;
 }
-/* line 60, ../sass/islandora-manuscript.scss */
+/* line 65, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .paged-tei-seadragon-viewer-download-datastreams strong {
   display: none;
 }
-/* line 64, ../sass/islandora-manuscript.scss */
+/* line 69, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .paged-tei-seadragon-viewer-download-datastreams #paged-tei-seadragon-viewer-download-datastream-PDF {
   display: inline-block;
   padding-left: 8px;
 }
-/* line 68, ../sass/islandora-manuscript.scss */
+/* line 73, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .paged-tei-seadragon-viewer-download-datastreams #paged-tei-seadragon-viewer-download-datastream-PDF a {
   font-size: 0;
   text-indent: -9999px;
@@ -78,12 +83,12 @@
   height: 24px;
   display: inline-block;
 }
-/* line 78, ../sass/islandora-manuscript.scss */
+/* line 83, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .paged-tei-seadragon-viewer-download-datastreams #paged-tei-seadragon-viewer-download-datastream-JP2 {
   display: inline-block;
   padding-left: 8px;
 }
-/* line 82, ../sass/islandora-manuscript.scss */
+/* line 87, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .paged-tei-seadragon-viewer-download-datastreams #paged-tei-seadragon-viewer-download-datastream-JP2 a {
   font-size: 0;
   text-indent: -9999px;
@@ -92,11 +97,11 @@
   height: 24px;
   display: inline-block;
 }
-/* line 93, ../sass/islandora-manuscript.scss */
+/* line 98, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .tei-pager-wrapper {
   height: 34px;
 }
-/* line 96, ../sass/islandora-manuscript.scss */
+/* line 101, ../sass/islandora-manuscript.scss */
 #manuscript-viewer .tei-pager-wrapper select {
   background: white url("../images/chevron-sign-down.png") no-repeat right center;
   background-position: right 5px center;
