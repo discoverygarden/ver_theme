@@ -1,0 +1,22 @@
+/**
+ * @file
+ * Metdata Styling
+ */
+
+@import "base";
+
+.panels-flexible-row{
+  margin: 1.5em;
+
+  .truncation-toggle-processed {
+    span {
+      display: block;
+
+      a {
+        display: block;
+        margin: 0.5rem auto;
+        text-align: left;
+      }
+    }
+  }
+}

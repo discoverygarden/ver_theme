@@ -15,7 +15,7 @@
   float: none;
   margin: 0 6px 0;
 }
-/* line 23, ../sass/views-styles.scss */
+/* line 22, ../sass/views-styles.scss */
 .views-displays .secondary a:link,
 .views-displays .secondary a:visited {
   text-shadow: none;
@@ -23,10 +23,8 @@
 }
 /* line 28, ../sass/views-styles.scss */
 .views-displays .secondary .open > a {
-  -webkit-border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
-  -ms-border-radius: 7px 7px 0 0;
-  -o-border-radius: 7px 7px 0 0;
+  -webkit-border-radius: 7px;
   border-radius: 7px 7px 0 0;
 }
 /* line 30, ../sass/views-styles.scss */
@@ -39,18 +37,14 @@
 }
 /* line 37, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li:first-child {
-  -webkit-border-radius: 0 7px 0 0;
   -moz-border-radius: 0 7px 0 0;
-  -ms-border-radius: 0 7px 0 0;
-  -o-border-radius: 0 7px 0 0;
+  -webkit-border-radius: 0;
   border-radius: 0 7px 0 0;
 }
 /* line 40, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li:last-child {
-  -webkit-border-radius: 0 0 7px 7px;
   -moz-border-radius: 0 0 7px 7px;
-  -ms-border-radius: 0 0 7px 7px;
-  -o-border-radius: 0 0 7px 7px;
+  -webkit-border-radius: 0;
   border-radius: 0 0 7px 7px;
 }
 

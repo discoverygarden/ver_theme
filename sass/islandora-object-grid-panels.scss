@@ -1,0 +1,23 @@
+/**
+ * @file
+ * Islandora Object Grid Styling in panel display
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+
+@import "base";
+
+.panels-flexible-row {
+  .islandora-objects-grid {
+    text-align: center;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+      list-style-image: none;
+    }
+  }
+}

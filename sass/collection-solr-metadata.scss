@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Metdata Styling
+ */
+
+@import "base";
+
+.panels-flexible-row{
+  fieldset.islandora-metadata {
+    margin: 0;
+
+    p {
+      margin: 0;
+    }
+  }
+}

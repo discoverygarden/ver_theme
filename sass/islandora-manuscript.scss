@@ -1,0 +1,115 @@
+
+@import "base";
+
+#manuscript-viewer {
+  .paged-tei-seadragon-viewer-left-toolbar {
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    @include filter-gradient(#343334, #5a5b5d, vertical); // IE6-9
+    @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
+
+    > div {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  #paged-tei-seadragon-viewer-tei-pane {
+    width: 100%;
+    max-width: 49%;
+  }
+
+  .paged-tei-seadragon-viewer-right-toolbar {
+    text-align: right;
+    float: none;
+    vertical-align: middle
+  }
+
+  .left-toolbar {
+    text-align: left;
+
+    button {
+      font-size: 0;
+      text-indent: -9999px;
+      background: url("../images/binoculars.png") no-repeat right center;
+      width: 24px;
+      border: none;
+      height: 24px;
+      background-size: 24px 24px;
+      display: inline-block;
+      -moz-appearance: none; /* Firefox */
+      -webkit-appearance: none; /* Safari and Chrome */
+    }
+  }
+
+  a#clip {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  #clip > img {
+    padding-top: 5px;
+  }
+
+  .paged-tei-seadragon-viewer-download-datastreams {
+    strong {
+      display: none;
+    }
+
+    #paged-tei-seadragon-viewer-download-datastream-PDF {
+      display: inline-block;
+      padding-left: 8px;
+
+      a {
+        font-size: 0;
+        text-indent: -9999px;
+        background: url("../images/pdf.png") no-repeat right center;
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+      }
+    }
+
+    #paged-tei-seadragon-viewer-download-datastream-JP2 {
+      display: inline-block;
+      padding-left: 8px;
+
+      a {
+        font-size: 0;
+        text-indent: -9999px;
+        background: url("../images/picture.png") no-repeat right center;
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+      }
+    }
+  }
+
+  .tei-pager-wrapper {
+    height: 34px;
+
+    select {
+      background: white url("../images/chevron-sign-down.png") no-repeat right center;
+      background-position: right 5px center;
+      background-size: 13px 13px;
+      border: none;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      border-radius: 20px;
+      padding: 5px 20px;
+      height: 34px;
+      -moz-appearance: none; /* Firefox */
+      -webkit-appearance: none; /* Safari and Chrome */
+    }
+  }
+}

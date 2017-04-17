@@ -8,12 +8,42 @@ function ver_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form_s
   $link = array(
     '#markup' => l(t("Advanced Search"), "advanced-search", array('attributes' => array('class' => array('adv_search')))),
   );
+  $form['simple']['islandora_simple_search_query']['#title_display'] = 'invisible';
+  $form['simple']['islandora_simple_search_query']['#attributes']['placeholder'] = t("Search this repository");
   $form['simple']['advanced_link'] = $link;
 }
 
 /**
- * Implements hook_block_view_MODULE_DELTA_alter().
+ * Implements hook_form_alter().
  */
-function ver_theme_view_islandora_solr_simple_alter(&$data, $block) {
-  drupal_add_js(drupal_get_path('theme', 'ver_theme') . '/js/clean_simple_search.js');
+function ver_theme_form_islandora_solr_advanced_search_form_alter(&$form, &$form_state, $form_id) {
+  foreach ($form['terms'] as $key => &$value) {
+    if (is_array($value)) {
+      $value['field']['#title_display'] = 'invisible';
+      $value['search']['#title_display'] = 'invisible';
+    }
+  }
+}
+
+/**
+ * Theme function to create a clipper link.
+ */
+function ver_theme_islandora_openseadragon_clipper(&$variables) {
+  $image = theme(
+    'image',
+    array(
+      'path' => path_to_theme() . '/images/cut-content-button.png',
+    )
+  );
+  return l(
+    $image,
+    "islandora/object/{$variables['pid']}/print",
+    array(
+      'attributes' => array(
+        'title' => t('Clip Image'),
+        'id' => 'clip',
+      ),
+      'html' => TRUE,
+    )
+  );
 }

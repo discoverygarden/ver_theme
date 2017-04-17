@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Metdata Styling
+ */
+/* line 9, ../sass/collection-solr-metadata.scss */
+.panels-flexible-row fieldset.islandora-metadata {
+  margin: 0;
+}
+/* line 12, ../sass/collection-solr-metadata.scss */
+.panels-flexible-row fieldset.islandora-metadata p {
+  margin: 0;
+}

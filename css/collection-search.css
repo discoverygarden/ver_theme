@@ -1,0 +1,26 @@
+/**
+ * @file
+ * Collection Search Styling
+ */
+/* line 11, ../sass/collection-search.scss */
+.collection-search #islandora-collection-search-form .form-item,
+.collection-search #islandora-collection-search-form .form-select,
+.collection-search #islandora-collection-search-form .form-text,
+.pane-islandora-collection-search-islandora-collection-search #islandora-collection-search-form .form-item,
+.pane-islandora-collection-search-islandora-collection-search #islandora-collection-search-form .form-select,
+.pane-islandora-collection-search-islandora-collection-search #islandora-collection-search-form .form-text {
+  width: 100%;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+/* line 26, ../sass/collection-search.scss */
+#islandora-solr-advanced-terms .form-item {
+  margin: 0.5rem 0;
+  min-width: 40%;
+}
+/* line 30, ../sass/collection-search.scss */
+#islandora-solr-advanced-terms .form-item .form-select,
+#islandora-solr-advanced-terms .form-item .form-text {
+  width: 100%;
+}
