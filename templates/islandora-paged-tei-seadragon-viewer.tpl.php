@@ -4,7 +4,7 @@
  * Template file for the paged TEI seadragon viewer.
  */
 ?>
-<?php if ($tei_pages_populated): ?>
+<?php if ($pages_populated): ?>
 
   <div class="paged-tei-seadragon-viewer-left-toolbar">
     <div class="left-toolbar">
