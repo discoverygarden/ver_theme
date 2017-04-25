@@ -138,20 +138,21 @@ li a.active {
 #block-menu-menu-header-menu ul {
   margin: 1em 0em;
   padding-left: 15px;
+  padding-right: 15px;
 }
-/* line 126, ../sass/navigation.scss */
+/* line 127, ../sass/navigation.scss */
 #block-menu-menu-header-menu ul li {
   padding-left: 0px;
   display: inline-block;
   margin: 0 0em;
   margin-left: 0px;
 }
-/* line 132, ../sass/navigation.scss */
+/* line 133, ../sass/navigation.scss */
 #block-menu-menu-header-menu ul li.first {
   margin-left: 0;
 }
 
-/* line 138, ../sass/navigation.scss */
+/* line 139, ../sass/navigation.scss */
 .footer-logo {
   float: left;
 }
@@ -159,7 +160,7 @@ li a.active {
 /*
   *
   */
-/* line 145, ../sass/navigation.scss */
+/* line 146, ../sass/navigation.scss */
 .sidebar {
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
   padding: 2em 1.5em;
